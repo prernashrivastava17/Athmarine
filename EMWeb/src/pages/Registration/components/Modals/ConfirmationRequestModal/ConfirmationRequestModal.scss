@@ -1,0 +1,73 @@
+.modal_addition_charges {
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 40px;
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    animation: fadein 0.6s;
+  
+    @media only screen and (min-width: 300px) and (max-width: 479px) {
+      width: 85%;
+      padding: 28px;
+    }
+    .modal_heading {
+        font-size: 18px;
+        font-family: "Poppins-Medium";
+        text-align: center;
+      }
+      .modal_text {
+        font-size: 16px;
+        font-family: "Poppins-Regular";
+        line-height: 16px;
+        margin-block: 10px;
+        text-align: center;
+      }
+  
+    .close_container_charges {
+      position: absolute;
+      top: -20px;
+      right: -20px;
+      background-color: #fff;
+      border-radius: 50%;
+      width: 44px;
+      height: 43px;
+      text-align: center;
+      border: 3px solid black;
+      cursor: pointer;
+  
+      .close_icon {
+        font-size: 35px;
+        display: inline-block;
+        font-weight: bold;
+      }
+    }
+  }
+  
+  .button_container {
+    text-align: right;
+
+    .btn {
+      display: inline-block;
+      font-size: 15px;
+      font-family: "Poppins-Medium";
+      cursor: pointer;
+      width: 100px;
+      text-align: center;
+
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+    .btn_cancel {
+      color: #001426;
+      border: 1px solid #001426;
+      background-color: #fff;
+    }
+
+    .btn_ok {
+    }
+  }

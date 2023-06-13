@@ -1,0 +1,242 @@
+footer {
+  .main_wrapper {
+    padding: 20px 2%;
+    text-align: center;
+    .main_heading {
+      font-size: 35px;
+      font-family: "Poppins-Regular";
+      margin-bottom: 15px;
+
+      @media only screen and (min-width: 300px) and (max-width: 479px) {
+        font-size: 28px;
+      }
+      @media only screen and (min-width: 950px) and (max-width: 1280px) {
+        font-size: 30px;
+      }
+    }
+    .sub_heading {
+      font-size: 16px;
+      margin-bottom: 20px;
+      font-family: "Poppins-Regular";
+      padding: 0 218px;
+
+      @media only screen and (min-width: 300px) and (max-width: 479px) {
+        padding: 0;
+      }
+      @media only screen and (min-width: 950px) and (max-width: 1280px) {
+        font-size: 14px;
+      }
+    }
+    .contact_info {
+      color: #000000bd;
+      font-size: 16px;
+      margin-bottom: 30px;
+      font-family: "Poppins-Medium";
+      .email {
+        text-decoration: none;
+        color: inherit;
+        width: 100%;
+        display: inline-block;
+      }
+      .phone {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      @media only screen and (min-width: 950px) and (max-width: 1280px) {
+        font-size: 14px;
+      }
+    }
+
+    .newsletter_container {
+      .heading {
+        font-size: 30px;
+        font-family: "Poppins-Regular";
+
+        @media only screen and (min-width: 300px) and (max-width: 479px) {
+          font-size: 28px;
+        }
+        @media only screen and (min-width: 950px) and (max-width: 1280px) {
+          font-size: 23px;
+        }
+      }
+      .text_container {
+        @media only screen and (min-width: 300px) and (max-width: 479px) {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 15px;
+        }
+        .text_email,
+        .text_mobile {
+          width: 25%;
+          line-height: 2.5;
+          padding: 0 10px;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 8px;
+          resize: vertical;
+          border-radius: 7px;
+          outline: none;
+          border: none;
+          box-shadow: 3px 5px 10px #00000034;
+
+          @media only screen and (min-width: 300px) and (max-width: 479px) {
+            width: 70%;
+            margin-bottom: 8px;
+          }
+        }
+        .mobile_size {
+          width: 15%;
+
+          @media only screen and (min-width: 300px) and (max-width: 479px) {
+            width: 70%;
+          }
+        }
+        .btn {
+          color: #ffffff;
+          font-size: 13px;
+          margin-left: 23px;
+          font-family: "Poppins-Medium";
+          background-color: #001426;
+          padding: 5px 15px;
+          display: inline-block;
+          border-radius: 6px;
+          outline: none;
+          border: none;
+          cursor: pointer;
+          transition: 0.3s;
+
+          &:active {
+            transform: scale(0.92);
+          }
+
+          @media only screen and (min-width: 300px) and (max-width: 479px) {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .social_media {
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+      margin: auto;
+      margin-top: 20px;
+
+      @media only screen and (min-width: 300px) and (max-width: 479px) {
+        flex-direction: column;
+      }
+
+      .media_section {
+        @media only screen and (min-width: 300px) and (max-width: 479px) {
+          &:not(:last-child) {
+            margin-bottom: 10px;
+          }
+        }
+
+        .redirection_link {
+          text-decoration: none;
+          color: #061526;
+          display: flex;
+          align-items: center;
+          pointer-events: none;
+
+          @media only screen and (min-width: 300px) and (max-width: 479px) {
+            justify-content: center;
+          }
+          .media_icon {
+            display: inline-block;
+            img {
+              width: 28px;
+
+              @media only screen and (min-width: 300px) and (max-width: 479px) {
+                width: 20px;
+              }
+              @media only screen and (min-width: 950px) and (max-width: 1280px) {
+                width: 22px;
+              }
+            }
+          }
+          .media_name {
+            margin-left: 10px;
+            font-size: 16px;
+            font-family: "Poppins-Regular";
+            @media only screen and (min-width: 950px) and (max-width: 1280px) {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+    hr {
+      width: 90%;
+      display: inline-block;
+    }
+    .footer_main {
+      .footer_inner {
+        position: relative;
+        margin-top: 9px;
+        .redirect_area {
+          position: absolute;
+
+          @media only screen and (min-width: 300px) and (max-width: 479px) {
+            position: unset;
+          }
+          .term_condition,
+          .faq,
+          .cookie_preferences {
+            text-decoration: none;
+            color: #061526;
+            font-size: 14px;
+            display: inline-block;
+            font-family: "Poppins-Regular";
+            @media only screen and (min-width: 950px) and (max-width: 1280px) {
+              font-size: 12px;
+            }
+          }
+          .verticle_line {
+            color: #061526;
+            margin: 0 6px;
+            border-left: 1px solid #061526;
+          }
+        }
+        .copyright_area {
+          font-size: 14px;
+          font-family: "Poppins-Regular";
+          position: absolute;
+          right: 0;
+          @media only screen and (min-width: 950px) and (max-width: 1280px) {
+            font-size: 12px;
+          }
+        }
+
+        .space_text {
+        }
+      }
+    }
+  }
+}
+.email_error_label {
+  color: #dc2727;
+  font-size: 12px;
+  font-family: "Poppins-medium";
+  display: block;
+  position: relative;
+  left: -13%;
+  @media only screen and (min-width: 300px) and (max-width: 479px) {
+    left: 3%;
+  }
+}
+.phone_error_label {
+  color: #dc2727;
+  font-size: 12px;
+  font-family: "Poppins-medium";
+  display: block;
+  position: relative;
+  left: -7%;
+  @media only screen and (min-width: 300px) and (max-width: 479px) {
+    left: 3%;
+  }
+}

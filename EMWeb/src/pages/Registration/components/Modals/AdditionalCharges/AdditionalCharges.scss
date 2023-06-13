@@ -1,0 +1,90 @@
+.modal_addition_charges {
+  background-color: #fff;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 40px;
+  border-radius: 15px;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  animation: fadein 0.6s;
+
+  @media only screen and (min-width: 300px) and (max-width: 479px) {
+    width: 85%;
+    padding: 28px;
+  }
+
+  .info {
+    color: #000000d9;
+    font-size: 18px;
+    font-family: "Poppins-Regular";
+  }
+
+  .engineers_pricing_container {
+    background: #e1ecf2;
+    border-radius: 9px;
+    background: #e1ecf2;
+    border-radius: 9px;
+    padding: 2px 20px;
+    margin-top: 22px;
+
+    .engineers_head {
+      display: flex;
+      padding: 8px 0;
+      border-bottom: 1px solid #00000014;
+
+      .heading {
+        width: 50%;
+        text-align: center;
+        color: #000000d9;
+        font-size: 18px;
+        font-family: "Poppins-Medium";
+      }
+    }
+    .engineers_body {
+      .engineers_row {
+        display: flex;
+
+        .text {
+          padding: 1px 0;
+          width: 50%;
+          text-align: left;
+          color: #000000d9;
+          font-size: 16px;
+          font-family: "Poppins-Regular";
+          padding-left: 8%;
+        }
+        .text_value {
+          padding: 1px 0;
+          width: 50%;
+          text-align: right;
+          color: #000000d9;
+          font-size: 16px;
+          font-family: "Poppins-Regular";
+          padding-right: 13%;
+        }
+      }
+    }
+  }
+
+  .close_container_charges {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 44px;
+    height: 43px;
+    text-align: center;
+    border: 3px solid black;
+    cursor: pointer;
+
+    .close_icon {
+      font-size: 35px;
+      display: inline-block;
+      font-weight: bold;
+      margin-top: -7px;
+    }
+  }
+}

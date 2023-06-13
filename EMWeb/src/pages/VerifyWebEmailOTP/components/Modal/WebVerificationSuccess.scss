@@ -1,0 +1,82 @@
+.modal_verification_success {
+  background-color: #fff;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 30px 0;
+  border-radius: 30px;
+  width: 40%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  animation: fadein 0.6s;
+
+  @media only screen and (min-width: 300px) and (max-width: 479px) {
+    width: 85%;
+  }
+
+  h3 {
+    color: #001426;
+    font-size: 21px;
+    font-family: "Poppins-regular";
+    text-align: center;
+    padding: 5px 0;
+  }
+
+  p {
+    font-size: 16px;
+    color: #000000d9;
+    font-family: "Poppins-Regular";
+    text-align: center;
+    padding: 5px 0;
+  }
+  .img {
+    border-radius: 50%;
+    padding: 10px;
+    padding: 5px 0;
+  }
+
+  .submit_container {
+    text-align: center;
+    padding-top: 15px;
+    button {
+      border: none;
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #001426;
+      font-size: 16px;
+      border-radius: 6px;
+      padding: 7px 30px;
+      display: inline-block;
+      font-family: "Poppins-Regular";
+      box-shadow: 3px 5px 10px #00000062;
+      cursor: pointer;
+      transition: 0.3s;
+
+      &:active {
+        transform: scale(0.92);
+      }
+    }
+  }
+}
+
+// --------------------- fadein Keyframe ---------------------
+@keyframes fadein {
+  0% {
+    transform: translate(-50%, -200%);
+    opacity: 0;
+    z-index: -1;
+  }
+
+  60% {
+    transform: translate(-50%, -40%);
+    opacity: 1;
+    z-index: 2;
+  }
+
+  100% {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    z-index: 2;
+  }
+}

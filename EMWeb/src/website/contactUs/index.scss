@@ -1,0 +1,166 @@
+main {
+  .section_contact_us {
+    margin-bottom: 70px;
+
+    .main_wrapper {
+      margin: 2% 2%;
+      .main_heading {
+        font-family: "Poppins-Bold";
+        text-align: center;
+        color: #001426;
+        margin-bottom: 12px;
+        font-size: 50px;
+
+        @media only screen and (min-width: 300px) and (max-width: 479px) {
+          font-size: 35px;
+        }
+        @media only screen and (min-width: 950px) and (max-width: 1280px) {
+          font-size: 30px;
+        }
+      }
+      .main_area {
+        .heading {
+          font-family: "Poppins-Bold";
+          font-size: 30px;
+          color: #00539f;
+        }
+        hr {
+          border: none;
+          border-top: 1px solid #11111133;
+          border-bottom: 1px solid #11111133;
+          margin-bottom: 12px;
+        }
+        .contact_area {
+          display: flex;
+
+          @media only screen and (min-width: 300px) and (max-width: 479px) {
+            flex-wrap: wrap;
+          }
+
+          .contact_text_area {
+            width: 50%;
+            padding: 10px 30px 0 0;
+
+            @media only screen and (min-width: 300px) and (max-width: 479px) {
+              width: 100%;
+              padding: 0;
+            }
+
+            p {
+              font-family: "Poppins-Regular";
+              font-size: 18px;
+              line-height: 23px;
+              color: #001426;
+              margin-bottom: 15px;
+              line-height: 35px;
+              @media only screen and (min-width: 950px) and (max-width: 1280px) {
+                font-size: 15px;
+              }
+            }
+            .contact_support_options {
+              background-color: #e3d8d3;
+              padding: 16px;
+              ul {
+                padding-left: 18px;
+                text-align: justify;
+                li {
+                  font-family: "Poppins-Regular";
+                  font-size: 18px;
+                  line-height: 23px;
+                  color: #001426;
+                  line-height: 35px;
+                  list-style-position: outside;
+                  padding-left: 18px;
+                  @media only screen and (min-width: 950px) and (max-width: 1280px) {
+                    font-size: 15px;
+                  }
+                }
+              }
+            }
+          }
+          .contact_form_area {
+            width: 50%;
+
+            @media only screen and (min-width: 300px) and (max-width: 479px) {
+              width: 100%;
+            }
+
+            form {
+              .input_container {
+                display: flex;
+                justify-content: space-between;
+
+                .inner_input_area {
+                  width: 47%;
+                  padding: 12px;
+                  border: 1px solid #ccc;
+                  border-radius: 4px;
+                  box-sizing: border-box;
+                  margin-top: 6px;
+                  margin-bottom: 16px;
+                  resize: vertical;
+                  font-size: 18px;
+                  font-family: "Poppins-Regular";
+                }
+              }
+              .outer_input_area,
+              textarea {
+                width: 100%;
+                padding: 12px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                margin-top: 6px;
+                margin-bottom: 16px;
+                resize: vertical;
+                font-size: 18px;
+                font-family: "Poppins-Regular";
+              }
+              .tacbox {
+                .checkbox {
+                }
+                label {
+                  font-size: 16px;
+                  font-family: "Poppins-Regular";
+                  margin-left: 10px;
+                  cursor: pointer;
+                  a {
+                    text-decoration: none;
+                  }
+                }
+              }
+              .btn_submit_form {
+                color: #ffffff;
+                font-size: 18px;
+                font-family: "Poppins-Medium";
+                background-color: #001426;
+                padding: 10px 20px;
+                display: inline-block;
+                border-radius: 6px;
+                outline: none;
+                border: none;
+                cursor: pointer;
+                margin-top: 20px;
+                transition: 0.3s;
+
+                &:active {
+                  transform: scale(0.92);
+                }
+
+                @media only screen and (min-width: 300px) and (max-width: 479px) {
+                  font-size: 16px;
+                }
+                @media only screen and (min-width: 950px) and (max-width: 1280px) {
+                  font-size: 14px;
+                }
+              }
+              .rc-anchor-checkbox-label {
+                font-family: "Poppins-Regular" !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

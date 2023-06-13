@@ -1,0 +1,71 @@
+.modal_already {
+  position: relative;
+  background-image: url("https://transas.s3.ap-south-1.amazonaws.com/TransasImages/banner.png");
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  background-repeat: no-repeat;
+  text-align: center;
+  .login_wrapper {
+    display: inline-block;
+    margin: 7% 0;
+    width: 40%;
+    border-radius: 30px;
+    padding: 50px;
+    background-color: rgba(222, 235, 241, 0.9);
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.9);
+
+    @media only screen and (min-width: 300px) and (max-width: 479px) {
+      width: 90%;
+      padding: 40px 30px;
+    }
+  }
+  .modal_text {
+    @media only screen and (min-width: 300px) and (max-width: 479px) {
+      width: 85%;
+    }
+
+    h3 {
+      color: #001426;
+      font-size: 22px;
+      font-family: "Poppins-regular";
+      text-align: center;
+      padding: 5px 0;
+    }
+
+    p {
+      font-size: 17px;
+      color: #000000d9;
+      font-family: "Poppins-Regular";
+      text-align: center;
+      padding: 5px 0;
+    }
+    .img {
+      border-radius: 50%;
+      padding: 10px;
+      padding: 5px 0;
+    }
+  }
+  .submit_container {
+    text-align: center;
+    padding-top: 15px;
+    button {
+      border: none;
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #001426;
+      font-size: 16px;
+      border-radius: 6px;
+      padding: 7px 30px;
+      display: inline-block;
+      font-family: "Poppins-Regular";
+      box-shadow: 3px 5px 10px #00000062;
+      cursor: pointer;
+      transition: 0.3s;
+
+      &:active {
+        transform: scale(0.92);
+      }
+    }
+  }
+}

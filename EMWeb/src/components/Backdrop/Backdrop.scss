@@ -1,0 +1,20 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100vw;
+  z-index: 999 !important;
+  background-color: #000000b3;
+
+  // div {
+  //   -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  //   scrollbar-width: none; /* for Firefox */
+  //   overflow-y: scroll;
+  // }
+
+  // div::-webkit-scrollbar {
+  //   display: none; /* for Chrome, Safari, and Opera */
+  // }
+}

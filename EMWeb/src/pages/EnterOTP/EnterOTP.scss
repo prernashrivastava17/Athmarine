@@ -1,0 +1,154 @@
+.login_container {
+  position: relative;
+  // background-image: url("./../../assets/images/login-main-banner.png");
+  background-image: url("https://transas.s3.ap-south-1.amazonaws.com/16_feb_gif.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+
+  @media only screen and (min-width: 300px) and (max-width: 479px) {
+    background-size: 175% 130%;
+  }
+
+  .a_opt_container {
+    display: inline-block;
+    margin: 7% 0;
+    border-radius: 30px;
+    padding: 50px;
+    background-color: rgba(222, 235, 241, 0.9);
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.9);
+    width: 36%;
+    position: relative;
+
+    @media only screen and (min-width: 300px) and (max-width: 479px) {
+      width: 85%;
+      padding: 30px;
+    }
+
+    .lock_container {
+      text-align: center;
+      .lock_icon {
+        width: 8%;
+
+        @media only screen and (min-width: 300px) and (max-width: 479px) {
+          width: 11%;
+        }
+      }
+
+      .modal_heading {
+        color: black;
+        font-size: 26px;
+        font-family: "Poppins-Medium";
+
+        @media only screen and (min-width: 300px) and (max-width: 479px) {
+          font-size: 18px;
+        }
+      }
+    }
+
+    .text_info {
+      text-align: center;
+      padding: 30px 0 15px;
+
+      @media only screen and (min-width: 300px) and (max-width: 479px) {
+        padding: 15% 0 5px;
+      }
+
+      .text {
+        color: #000000d9;
+        font-size: 21px;
+        font-family: "Poppins-Regular";
+
+        @media only screen and (min-width: 300px) and (max-width: 479px) {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .otp_container {
+      .otp_main_container {
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: space-between;
+
+        .text {
+          color: #000000d9;
+          font-size: 21px;
+          font-family: "Poppins-Regular";
+
+          @media only screen and (min-width: 300px) and (max-width: 479px) {
+            font-size: 12px;
+          }
+        }
+
+        .timer {
+          color: #2a4362;
+          font-size: 21px;
+          font-family: "Poppins-SemiBold";
+
+          @media only screen and (min-width: 300px) and (max-width: 479px) {
+            font-size: 13px;
+          }
+        }
+      }
+      .enter_otp_container {
+        display: flex;
+        justify-content: center;
+
+        input {
+          text-align: center;
+          display: inline-block;
+          width: 14%;
+          height: 55px;
+          font-size: 30px;
+          line-height: 55px;
+          border: none;
+          border-radius: 6px;
+          padding: 20px 10px;
+          box-shadow: 3px 5px 10px #00000034;
+          background-color: #fff;
+          outline: none;
+        }
+      }
+      .did_not_receive_otp_container {
+        margin-top: 14px;
+        text-align: right;
+        .resend_btn {
+          color: #2a4362;
+          font-size: 21px;
+          font-family: "Poppins-Medium";
+          display: inline-block;
+          cursor: pointer;
+          .resend_icon {
+            @media only screen and (min-width: 300px) and (max-width: 479px) {
+              width: 10px;
+            }
+          }
+
+          @media only screen and (min-width: 300px) and (max-width: 479px) {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    .submit_container {
+      text-align: center;
+      margin-top: 25px;
+      button {
+        border: none;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #000000;
+        font-size: 16px;
+        border-radius: 6px;
+        padding: 10px 35px;
+        display: inline-block;
+        font-family: "Poppins-Regular";
+        box-shadow: 3px 5px 10px #00000062;
+        cursor: pointer;
+      }
+    }
+  }
+}

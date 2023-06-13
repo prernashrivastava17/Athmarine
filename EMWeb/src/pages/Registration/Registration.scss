@@ -1,0 +1,42 @@
+.main_container {
+  position: relative;
+  background-image: url("https://transas.s3.ap-south-1.amazonaws.com/TransasImages/banner.png");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  @media only screen and (min-width: 300px) and (max-width: 479px) {
+    background-position: top;
+    background-size: 100% 67%;
+  }
+
+  .promotion_header {
+    .a_marquee {
+      font-size: 23px;
+      bottom: 12px;
+      background: #061526;
+      color: white;
+      font-family: "Poppins-Regular";
+      margin-bottom: 18px;
+      cursor: pointer;
+
+      @media only screen and (min-width: 300px) and (max-width: 479px) {
+        position: unset;
+        font-size: 18px;
+      }
+    }
+  }
+
+  .main_wrapper {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 60px 0;
+
+    @media only screen and (min-width: 300px) and (max-width: 479px) {
+      flex-wrap: wrap;
+      width: 100%;
+      padding: 0;
+    }
+  }
+}

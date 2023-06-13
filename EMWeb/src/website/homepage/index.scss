@@ -1,0 +1,529 @@
+main {
+  .section_main {
+    .video_wrapper {
+      width: 100vw;
+      height: 400px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+    }
+
+    .main_wrapper {
+      background-image: url("https://transas.s3.ap-south-1.amazonaws.com/16_feb_gif.gif");
+      height: 400px;
+      background-position: 50%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+
+      &::before {
+        background-color: rgba(0, 0, 0, 0.37);
+        content: "";
+        display: block;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+      }
+
+      .background_area {
+        display: inline-block;
+        color: white;
+        position: absolute;
+        z-index: 99;
+        width: 100%;
+        height: 100%;
+
+        .content_area {
+          position: absolute;
+          top: 50%;
+          left: 15%;
+          transform: translate(-15%, -50%);
+          width: 100%;
+          text-align: left;
+          padding-left: 4vw;
+
+          p {
+            text-shadow: 5px 5px 10px black;
+          }
+
+          .flip_container {
+            color: #999;
+            text-transform: uppercase;
+            font-size: 36px;
+            font-weight: bold;
+            width: 100%;
+            display: block;
+
+            #flip {
+              height: 50px;
+              overflow: hidden;
+            }
+
+            #flip > div > div {
+              color: #fff;
+              padding: 0 12px;
+              height: 45px;
+              margin-bottom: 45px;
+              display: inline-block;
+            }
+
+            #flip div:first-child {
+              animation: show 5s linear infinite;
+            }
+
+            #flip div div {
+              background: #42c58a;
+            }
+            #flip div:first-child div {
+              background: #2540b9c5;
+            }
+            #flip div:last-child div {
+              background: #fab804;
+            }
+
+            @keyframes show {
+              0% {
+                margin-top: -270px;
+              }
+              5% {
+                margin-top: -180px;
+              }
+              33% {
+                margin-top: -180px;
+              }
+              38% {
+                margin-top: -90px;
+              }
+              66% {
+                margin-top: -90px;
+              }
+              71% {
+                margin-top: 0px;
+              }
+              99.99% {
+                margin-top: 0px;
+              }
+              100% {
+                margin-top: -270px;
+              }
+            }
+          }
+
+          p {
+            font-size: 12px;
+            color: #999;
+          }
+
+          h1 {
+            font-size: 50px;
+            font-family: "Poppins-Bold";
+            line-height: 55px;
+            margin-bottom: 5px;
+
+            @media only screen and (min-width: 300px) and (max-width: 479px) {
+              font-size: 30px;
+              line-height: 35px;
+            }
+            @media only screen and (min-width: 950px) and (max-width: 1280px) {
+              font-size: 40px;
+            }
+          }
+          p {
+            font-size: 35px;
+            font-family: "Poppins-SemiBold";
+            color: #ff9800;
+            @media only screen and (min-width: 300px) and (max-width: 479px) {
+              font-size: 18px;
+            }
+            @media only screen and (min-width: 950px) and (max-width: 1280px) {
+              font-size: 27px;
+            }
+          }
+          button {
+            color: #ffffff;
+            font-size: 18px;
+            font-family: "Poppins-Medium";
+            background-color: #001426;
+            padding: 10px 20px;
+            display: inline-block;
+            border-radius: 6px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+            margin-top: 10px;
+
+            &:active {
+              transform: scale(0.92);
+            }
+
+            @media only screen and (min-width: 300px) and (max-width: 479px) {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .section_whychooseus {
+    .main_wrapper {
+      display: flex;
+      padding: 2% 3%;
+
+      @media only screen and (min-width: 300px) and (max-width: 479px) {
+        flex-wrap: wrap;
+      }
+
+      .part1 {
+        width: 30%;
+
+        @media only screen and (min-width: 300px) and (max-width: 479px) {
+          width: 100%;
+        }
+
+        .card_part {
+          background: #7edcd9;
+          height: 100%;
+          padding: 0px 15px;
+          border: 1px solid #00000057;
+          border-radius: 20px;
+
+          .heading {
+            font-size: 32px;
+            font-family: "Poppins-Bold";
+            color: #001426;
+            margin-bottom: 12px;
+            @media only screen and (min-width: 950px) and (max-width: 1280px) {
+              font-size: 26px;
+            }
+          }
+          .a_body {
+            font-size: 18px;
+            font-family: "Poppins-Regular";
+            color: #000000;
+            @media only screen and (min-width: 950px) and (max-width: 1280px) {
+              font-size: 15px;
+            }
+
+            .heading {
+              font-size: 21px;
+              font-family: "Poppins-Bold";
+              color: #001426;
+              margin-bottom: 0px;
+              @media only screen and (min-width: 950px) and (max-width: 1280px) {
+                font-size: 17px;
+              }
+            }
+            .body {
+              margin-bottom: 10px;
+            }
+          }
+          .button_container {
+            margin-top: 20px;
+            text-align: right;
+
+            .btn_submit_form {
+              color: #ffffff;
+              font-size: 18px;
+              font-family: "Poppins-Medium";
+              background-color: #001426;
+              padding: 10px 20px;
+              display: inline-block;
+              border-radius: 6px;
+              outline: none;
+              border: none;
+              cursor: pointer;
+              transition: 0.3s;
+
+              &:active {
+                transform: scale(0.92);
+              }
+
+              @media only screen and (min-width: 300px) and (max-width: 479px) {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+      .part2 {
+        display: flex;
+        justify-content: space-between;
+        padding: 3%;
+        padding-right: 0;
+        width: 90%;
+
+        @media only screen and (min-width: 300px) and (max-width: 479px) {
+          flex-wrap: wrap;
+          padding: 20px 0;
+          width: 100%;
+        }
+
+        .card_part_diff1 {
+          background: #deebf1;
+          text-align: center;
+          display: flex;
+          align-items: flex-end;
+          justify-content: center;
+          width: 32%;
+          padding: 0px 15px;
+          border: 1px solid #00000057;
+          border-radius: 20px;
+          background-image: url("https://transas.s3.ap-south-1.amazonaws.com/TransasImages/choose_us_1.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: bottom;
+
+          @media only screen and (min-width: 300px) and (max-width: 479px) {
+            width: 100%;
+            margin-bottom: 20px;
+          }
+
+          .card_header {
+            .icon_container {
+              display: inline-block;
+              width: 220px;
+              height: 220px;
+              background: white;
+              border-radius: 100%;
+              border: 1px solid #00000057;
+              margin-top: 85px;
+
+              @media only screen and (min-width: 300px) and (max-width: 479px) {
+                width: 150px;
+                height: 150px;
+              }
+
+              .icon {
+                width: 220px;
+                height: 220px;
+                border-radius: 50%;
+
+                @media only screen and (min-width: 300px) and (max-width: 479px) {
+                  width: 150px;
+                  height: 150px;
+                }
+              }
+            }
+            .heading {
+              font-size: 40px;
+              font-family: "Poppins-SemiBold";
+              color: #fff;
+              margin: 15px 0 20px;
+              text-shadow: 5px 5px 10px black;
+              @media only screen and (min-width: 950px) and (max-width: 1280px) {
+                font-size: 30px;
+              }
+            }
+          }
+          .card_body {
+            margin-top: 20px;
+            .para {
+              font-size: 16px;
+              font-family: "Poppins-Regular";
+              color: #000000;
+            }
+          }
+        }
+      }
+      .card_part_diff2 {
+        background: #deebf1;
+        text-align: center;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        width: 32%;
+        padding: 0px 15px;
+        border: 1px solid #00000057;
+        border-radius: 20px;
+        background-image: url("https://transas.s3.ap-south-1.amazonaws.com/TransasImages/choose_us_2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+
+        @media only screen and (min-width: 300px) and (max-width: 479px) {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+
+        .card_header {
+          .icon_container {
+            display: inline-block;
+            width: 220px;
+            height: 220px;
+            background: white;
+            border-radius: 100%;
+            border: 1px solid #00000057;
+            margin-top: 85px;
+
+            @media only screen and (min-width: 300px) and (max-width: 479px) {
+              width: 150px;
+              height: 150px;
+            }
+
+            .icon {
+              width: 220px;
+              height: 220px;
+              border-radius: 50%;
+
+              @media only screen and (min-width: 300px) and (max-width: 479px) {
+                width: 150px;
+                height: 150px;
+              }
+            }
+          }
+          .heading {
+            font-size: 40px;
+            font-family: "Poppins-SemiBold";
+            color: #fff;
+            margin: 15px 0 20px;
+            text-shadow: 5px 5px 10px black;
+            @media only screen and (min-width: 950px) and (max-width: 1280px) {
+              font-size: 30px;
+            }
+          }
+        }
+        .card_body {
+          margin-top: 20px;
+          .para {
+            font-size: 16px;
+            font-family: "Poppins-Regular";
+            color: #000000;
+          }
+        }
+      }
+      .card_part_diff3 {
+        background: #deebf1;
+        text-align: center;
+        width: 32%;
+        padding: 0px 15px;
+        border: 1px solid #00000057;
+        border-radius: 20px;
+        background-image: url("https://transas.s3.ap-south-1.amazonaws.com/TransasImages/choose_us_3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+
+        @media only screen and (min-width: 300px) and (max-width: 479px) {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+
+        .card_header {
+          .icon_container {
+            display: inline-block;
+            width: 220px;
+            height: 220px;
+            background: white;
+            border-radius: 100%;
+            border: 1px solid #00000057;
+            margin-top: 85px;
+
+            @media only screen and (min-width: 300px) and (max-width: 479px) {
+              width: 150px;
+              height: 150px;
+            }
+
+            .icon {
+              width: 220px;
+              height: 220px;
+              border-radius: 50%;
+
+              @media only screen and (min-width: 300px) and (max-width: 479px) {
+                width: 150px;
+                height: 150px;
+              }
+            }
+          }
+          .heading {
+            font-size: 40px;
+            font-family: "Poppins-SemiBold";
+            color: #fff;
+            margin: 15px 0 20px;
+            text-shadow: 5px 5px 10px black;
+            @media only screen and (min-width: 950px) and (max-width: 1280px) {
+              font-size: 30px;
+            }
+          }
+        }
+        .card_body {
+          margin-top: 20px;
+          .para {
+            font-size: 16px;
+            font-family: "Poppins-Regular";
+            color: #000000;
+          }
+        }
+      }
+    }
+  }
+
+  .section_testimonials {
+    .main_wrapper {
+      padding: 2% 3%;
+      .header {
+        .subheading {
+          font-size: 18px;
+          font-family: "Poppins-SemiBold";
+          color: #00142699;
+
+          width: 20%;
+          border-bottom: 1px solid #00142699;
+          line-height: 0.1em;
+          margin: 10px 0 20px;
+          span {
+            background: #fff;
+            padding-right: 10px;
+          }
+        }
+
+        .main_heading {
+          font-size: 21px;
+          font-family: "Poppins-SemiBold";
+          color: #001426;
+          margin: -10px 0 20px;
+          text-transform: uppercase;
+        }
+      }
+      .body {
+        display: flex;
+        .card {
+          display: flex;
+          .part1 {
+            width: 10%;
+            .img_area {
+              img {
+                width: 100%;
+              }
+            }
+          }
+          .part2 {
+            width: 90%;
+            padding-left: 18px;
+
+            .testimonial_name {
+              font-size: 18px;
+              font-family: "Poppins-SemiBold";
+              color: #001426;
+            }
+            .desg {
+              font-size: 15px;
+              font-family: "Poppins-SemiBold";
+              color: #00142691;
+              margin-top: -5px;
+            }
+            .quote {
+              font-size: 15px;
+              font-family: "Poppins-MediumItalic";
+              color: #000000bd;
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

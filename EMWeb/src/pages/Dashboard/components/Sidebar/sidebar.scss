@@ -1,0 +1,77 @@
+.sidebar_container {
+  background-color: #001426;
+  width: 19%;
+
+  @media only screen and (min-width: 300px) and (max-width: 479px) {
+    display: none;
+  }
+  .sidebar {
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding: 15px 10px;
+    line-height: 42px;
+    a {
+      position: relative;
+      padding: 6px 8px;
+      text-decoration: none;
+      font-size: 17px;
+      color: #f1f1f1;
+      display: block;
+      font-family: "Poppins-Regular";
+      &:hover {
+        color: #f1f1f1;
+      }
+      span {
+        position: absolute;
+        right: 20px;
+        text-align: left;
+        top: 25px;
+        transform: translateY(-50%);
+        font-size: 22px;
+        transition: transform 0.4s;
+        &:hover {
+          transform: translateY(-50%) rotate(-180deg);
+        }
+      }
+    }
+    .sidebar_sublist_menu {
+      position: static;
+      li {
+        display: none;
+        a {
+          position: relative;
+          color: blueviolet;
+          font-size: 17px;
+          padding-left: 30px;
+        }
+      }
+    }
+    #bidsId {
+      margin-left: 18%;
+      list-style: none;
+    }
+    .sidebar_image_icon {
+      padding: 0 10px;
+    }
+    .sidebar_image_icon_caret {
+      float: right;
+      margin-top: 20px;
+      margin-right: 5px;
+    }
+  }
+  .main {
+    margin-left: 160px;
+    padding: 0px 10px;
+  }
+  @media screen and (max-height: 450px) {
+    .sidebar {
+      padding-top: 15px;
+      a {
+        font-size: 18px;
+      }
+    }
+  }
+}

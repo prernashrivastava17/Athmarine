@@ -1,0 +1,14 @@
+.my_header_container {
+  padding: 0.8% 2%;
+  background-color: #deebf1;
+  .logo_container {
+    width: 12%;
+    @media only screen and (min-width: 300px) and (max-width: 479px) {
+      width: 50%;
+    }
+    img {
+      width: 100%;
+      cursor: pointer;
+    }
+  }
+}

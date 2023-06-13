@@ -1,0 +1,39 @@
+
+{
+    "companyId": 512,
+    "vendorServiceKey":false,
+    "country": {
+        "id": null,
+        "name": "",
+        "portId": [
+            {
+                "id": null
+            }
+        ]
+    },
+    "equipmentCategory": [
+        {
+            "equipmentCategoryId": {
+                "id": null,
+                "status": 0,
+                "serviceDetailsModels": [
+                    {
+                        "manufacturerModule": {
+                            "id": null,
+                            "name": "",
+                            "status": 0
+                        },
+                        "equipmentModel": {
+                            "id": null,
+                            "name": "",
+                            "code": "",
+                            "isVerified": "",
+                            "status": 0
+                        },
+                        "equipmentExperience": ""
+                    }
+                ]
+            }
+        }
+    ]
+}

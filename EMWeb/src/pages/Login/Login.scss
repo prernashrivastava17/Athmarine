@@ -1,0 +1,208 @@
+.login_container {
+  position: relative;
+  // background-image: url("./../../assets/images/login-main-banner.png");
+  // background-image: url("./../../assets/images/transas-landing-image.gif");
+  background-image: url("https://transas.s3.ap-south-1.amazonaws.com/16_feb_gif.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+
+  @media only screen and (min-width: 300px) and (max-width: 479px) {
+    background-size: 175% 130%;
+    height: 100vh;
+  }
+
+  .login_wrapper {
+    display: inline-block;
+    margin: 7% 0;
+    border-radius: 30px;
+    padding: 50px;
+    background-color: rgba(222, 235, 241, 0.9);
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.9);
+    width: 33%;
+
+    @media only screen and (min-width: 300px) and (max-width: 479px) {
+      display: inline-block;
+      margin: 10% 0;
+      border-radius: 9px;
+      padding: 30px;
+      background-color: rgba(222, 235, 241, 0.9);
+      box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.9);
+      width: 85%;
+    }
+
+    .card_header {
+      @media only screen and (min-width: 300px) and (max-width: 479px) {
+        margin-top: 20px;
+      }
+
+      .display_user_icon_container {
+        .display_user_icon {
+          width: 18%;
+        }
+      }
+      .login_info {
+        color: #001426;
+        font-size: 26px;
+        font-family: "Poppins-Medium";
+        padding: 0 30px;
+
+        @media only screen and (min-width: 950px) and (max-width: 1280px) {
+          font-size: 17px;
+        }
+
+        @media only screen and (min-width: 300px) and (max-width: 479px) {
+          font-size: 18px;
+          padding: 0;
+        }
+      }
+    }
+
+    .card_body {
+      margin-top: 40px;
+
+      @media only screen and (min-width: 300px) and (max-width: 479px) {
+        margin-top: 20px;
+      }
+
+      .form_control_fluid {
+        text-align: left;
+        position: relative;
+
+        &:first-child {
+          margin-bottom: 17px;
+        }
+
+        .form_label {
+          font-size: 21px;
+          color: rgba(0, 0, 0, 0.85);
+          font-family: "Poppins-Regular";
+          width: 100%;
+          display: inline-block;
+
+          @media only screen and (min-width: 300px) and (max-width: 479px) {
+            font-size: 14px;
+          }
+
+          .label_mandatory {
+            color: #eb4146;
+            font-size: 25px;
+          }
+        }
+
+        .eye_icon_login {
+          position: absolute;
+          display: inline-block;
+          right: 0%;
+          top: 40px;
+          height: 40px;
+          width: 10%;
+          border-radius: 6px;
+
+          @media only screen and (min-width: 300px) and (max-width: 479px) {
+            top: 40px;
+          }
+
+          img {
+            width: 52%;
+            display: inline-block;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+          }
+        }
+
+        .form_control {
+          display: block;
+          width: 100%;
+          border-radius: 6px;
+          border: none;
+          outline: none;
+          line-height: 2.5;
+          font-size: 16px;
+          padding: 0 13px;
+          font-family: "Poppins-Regular";
+          color: #000000d9;
+          box-shadow: 3px 5px 10px #00000034;
+        }
+      }
+
+      .forget_container {
+        text-align: right;
+        margin-top: 10px;
+
+        .forget_text {
+          color: #000000;
+          font-size: 16px;
+          font-family: "Poppins-Regular";
+          display: inline-block;
+          text-decoration: underline;
+          cursor: pointer;
+
+          @media only screen and (min-width: 300px) and (max-width: 479px) {
+            font-size: 12px;
+            font-family: "Poppins-Medium";
+          }
+        }
+      }
+
+      .submit_form_container {
+        margin-top: 40px;
+
+        input {
+          border: none;
+          text-decoration: none;
+          color: #ffffff;
+          background-color: #001426;
+          font-size: 16px;
+          border-radius: 6px;
+          padding: 7px 30px;
+          display: inline-block;
+          font-family: "Poppins-Regular";
+          box-shadow: 3px 5px 10px #00000062;
+          cursor: pointer;
+          transition: 0.3s;
+
+          &:active {
+            transform: scale(0.92);
+          }
+        }
+      }
+    }
+  }
+}
+.both_same {
+  font-size: 20px;
+  font-family: "Poppins-Regular";
+  background-color: #001426;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  margin: 66px 0px;
+  height: 64px;
+  justify-content: center;
+  border-radius: 24px;
+
+  @media only screen and (min-width: 950px) and (max-width: 1280px) {
+    font-size: 17px;
+  }
+
+  div {
+    line-height: 68px;
+  }
+  img {
+    width: 29px;
+    margin-right: 20px;
+  }
+}
+.card_body_suggest {
+  padding: 0 10px;
+  cursor: pointer;
+
+  @media only screen and (min-width: 300px) and (max-width: 479px) {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,196 @@
+.chat_container {
+  width: 100%;
+  .container {
+    width: 100%;
+    background-color: #f8fdff;
+    padding: 20px 30px;
+
+    h2 {
+      font-family: "Poppins-Medium";
+      font-size: 12px;
+      line-height: 28px;
+      color: #000000;
+      opacity: 0.7;
+      .editprofile {
+        color: #002c54;
+        opacity: 1;
+      }
+    }
+    h1 {
+      font-family: "Poppins-Medium";
+      font-size: 18px;
+      line-height: 27px;
+      // padding-top: 10px;
+      letter-spacing: 0px;
+      color: #001426;
+      opacity: 1;
+    }
+    .Request_card_container {
+      padding-top: 10px;
+      .requestor_box_container {
+        background-color: #deebf1;
+        box-shadow: 2px 4px 8px #00000029;
+        border-radius: 9px;
+        opacity: 1;
+        padding: 10px;
+        width: 100%;
+        .box_container {
+          display: flex;
+          padding: 10px 20px;
+          .block_container {
+            position: relative;
+            width: 25%;
+            .card_heading {
+              display: inline-block;
+              font-family: "Poppins-Medium";
+              font-size: 18px;
+              line-height: 27px;
+              letter-spacing: 0px;
+              color: #000000d9;
+            }
+            .cardSubHeading {
+              font-family: "Poppins-Medium";
+              font-size: 18px;
+              line-height: 27px;
+              letter-spacing: 0px;
+              color: #000000d9;
+            }
+            .time_container_wraper {
+              width: 60%;
+              float: right;
+              .time_container {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                .time_HH_MM {
+                  font-family: "Poppins-Medium";
+                  font-size: 18px;
+                  line-height: 27px;
+                  letter-spacing: 0px;
+                  color: #000000d9;
+                }
+              }
+            }
+            .label_container {
+              display: flex;
+              justify-content: space-evenly;
+              align-items: center;
+
+              .label {
+                width: 50px;
+                font-family: "Poppins-Medium";
+                font-size: 18px;
+                line-height: 27px;
+                letter-spacing: 0px;
+                color: #000000d9;
+                padding: 7px 10px;
+                opacity: 0.85;
+                background-color: #ffffff;
+                box-shadow: 0px 3px 6px #00000029;
+                border-radius: 6px;
+                opacity: 1;
+                text-align: center;
+              }
+            }
+          }
+
+          .view_attachements_container {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            display: flex;
+            .viewAttachements_img {
+              padding-right: 10px;
+            }
+            .view_attachements {
+              font-family: "Poppins-Medium";
+              font-size: 18px;
+              line-height: 27px;
+              color: #001426;
+            }
+          }
+        }
+      }
+      .chat_container {
+        padding: 10px 0px;
+        .chat_box_container {
+          background-color: #deebf1;
+          box-shadow: 2px 4px 8px #00000029;
+          border-radius: 9px;
+          opacity: 1;
+          margin-bottom: 2%;
+          // padding: 10px 10px 0px 10px;
+          width: 100%;
+          .chat_msg_container {
+            padding: 10px;
+            .vendor_message_box {
+              background-color: #ffffff;
+              box-shadow: 0px 3px 6px #00000029;
+              border-radius: 90px 90px 90px 0px;
+              padding: 20px;
+              width: 60%;
+              margin-top: 1%;
+              margin-bottom: 4%;
+
+              .vendor_msg {
+                font-family: "Poppins-Regular";
+                font-size: 16px;
+                line-height: 27px;
+                color: #000000;
+              }
+            }
+            .receiver_message_box {
+              display: inline-block;
+              width: 100%;
+              text-align: right;
+              .receiver_msg_container {
+                display: inline-block;
+                background-color: #ffffff;
+                box-shadow: 0px 3px 6px #00000029;
+                border-radius: 90px 90px 0px 90px;
+                padding: 20px;
+                width: 60%;
+                margin-bottom: 2%;
+
+                .receiver_msg {
+                  font-family: "Poppins-Regular";
+                  font-size: 16px;
+                  line-height: 27px;
+                  color: #000000;
+                }
+              }
+            }
+          }
+        }
+        .input_container {
+          padding: 5px;
+          position: relative;
+          width: 100%;
+        }
+        .form_control_input {
+          width: 100%;
+          border: none;
+          display: inline-block;
+          border-radius: 6px;
+          padding: 16px;
+          font-size: 18px;
+          margin-left: 0;
+          line-height: 24px;
+          font-family: "Poppins-Medium";
+          line-height: unset;
+          background-color: #001426;
+          color: #ffffff80;
+          box-shadow: none;
+          outline: none;
+        }
+        .chat_icon {
+          position: absolute;
+          right: 0;
+          width: 50px;
+          margin: 5px 10px 5px 0px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,287 @@
+.a_bids_received {
+  width: 81%;
+  background-color: #f8fdff;
+  padding: 20px;
+
+  .bredcrum {
+    color: #000000b3;
+    font-size: 12px;
+    font-family: "Poppins-Regular";
+    .active_page {
+      color: #002c54;
+      font-size: 12px;
+      font-family: "Poppins-Medium";
+    }
+  }
+
+  .main_heading {
+    color: #001426;
+    font-size: 18px;
+    font-family: "Poppins-Medium";
+    margin-top: 10px;
+  }
+
+  .is_bids_received {
+    display: flex;
+    justify-content: space-between;
+    background-color: #deebf1;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 9px;
+    box-shadow: 2px 4px 8px #00000029;
+    .col {
+      color: #000000d9;
+      font-size: 17px;
+      .bid_content {
+        .content_heading {
+          display: block;
+          font-family: "Poppins-Medium";
+        }
+        .content_text {
+          font-family: "Poppins-Regular";
+          margin-top: -5px;
+          margin-bottom: 7px;
+          display: inline-block;
+        }
+      }
+
+      .btn_bid_received {
+        color: #ffffff;
+        font-size: 14px;
+        font-family: "Poppins-Medium";
+        background-color: #001426;
+        padding: 8px 14px;
+        display: inline-block;
+        border-radius: 6px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        border: 2px solid #001426;
+        background-color: transparent;
+        color: #001426;
+        transition: 0.3s;
+
+        &:active {
+          transform: scale(0.92);
+        }
+      }
+    }
+  }
+
+  #accordion {
+    background-color: #fefffa;
+    margin-top: 10px;
+
+    .accordion_heading {
+      display: flex;
+      color: #001426;
+      font-size: 16px;
+      font-family: "Poppins-SemiBold";
+      border-bottom: 1px solid #00000029;
+      padding-bottom: 10px;
+
+      .a_vendors {
+        width: 20%;
+        text-align: center;
+      }
+      .a_pricing {
+        width: 20%;
+        text-align: center;
+      }
+      .a_description {
+        width: 35%;
+      }
+      .a_engineers {
+        width: 15%;
+        text-align: center;
+      }
+      .a_dropdown {
+        width: 10%;
+      }
+    }
+
+    .accordion_row {
+      display: flex;
+
+      .a_vendors {
+        width: 20%;
+        text-align: center;
+        img {
+          width: 65%;
+        }
+      }
+      .a_pricing {
+        width: 20%;
+        color: #001426;
+        font-size: 16px;
+        font-family: "Poppins-SemiBold";
+        text-align: center;
+      }
+      .a_description {
+        width: 35%;
+        color: #001426;
+        font-size: 16px;
+        font-family: "Poppins-Regular";
+      }
+      .a_engineers {
+        width: 15%;
+        color: #001426;
+        font-size: 16px;
+        font-family: "Poppins-Regular";
+        text-align: center;
+      }
+      .a_dropdown {
+        width: 10%;
+      }
+    }
+  }
+  h1,
+  div {
+    color: #000;
+  }
+  h1 {
+    margin: 10% auto 0;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    text-align: center;
+    display: table;
+    padding: 10px 0;
+    font-weight: bolder;
+    border-bottom: 2px solid #000;
+  }
+
+  p {
+    color: rgba(48, 69, 92, 0.8);
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    max-height: 800px;
+    opacity: 1;
+    transform: translate(0, 0);
+    margin-top: 14px;
+    z-index: 2;
+    transition: all 500ms ease;
+  }
+  p,
+  ul li i:before,
+  ul li i:after {
+    transition: all 0.25s ease-in-out;
+  }
+  ul {
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+    background: #deebf1;
+    border-radius: 9px;
+    box-shadow: 2px 4px 8px #00000029;
+  }
+  ul li {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 4px;
+    padding-top: 18px;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid #00000029;
+    }
+  }
+  ul li i {
+    position: absolute;
+    transform: translate(-43px, -3px);
+    margin-top: 0;
+    right: 0;
+  }
+  ul li i:before,
+  ul li i:after {
+    content: "";
+    position: absolute;
+    background-color: #000;
+    width: 3px;
+    height: 16px;
+  }
+  ul li i:before {
+    transform: translate(2px, 0) rotate(45deg);
+  }
+  ul li i:after {
+    transform: translate(2px, 0) rotate(-45deg);
+  }
+  ul li input[type="checkbox"] {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+  }
+  ul li input[type="checkbox"]:checked ~ p {
+    margin-top: 0;
+    max-height: 0;
+    opacity: 0;
+    transform: translate(0, 50%);
+  }
+  ul li input[type="checkbox"]:checked ~ i:before {
+    margin-top: 9px;
+    height: 9px;
+    transform: translate(2px, 0) rotate(45deg);
+  }
+  ul li input[type="checkbox"]:checked ~ i:after {
+    margin-top: 9px;
+    height: 9px;
+    transform: translate(-2px, 0) rotate(-45deg);
+  }
+  ul li:nth-of-type(1) {
+    border-top: none;
+    animation-delay: 0.5s;
+  }
+  ul li:nth-of-type(2) {
+    animation-delay: 0.75s;
+  }
+  ul li:nth-of-type(3) {
+    animation-delay: 1s;
+  }
+  ul li:last-of-type {
+    padding-bottom: 0;
+  }
+  li {
+    animation: bounceInUp 1s ease both;
+  }
+  @-webkit-keyframes bounceInUp {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(2000px);
+    }
+    60% {
+      opacity: 1;
+      -webkit-transform: translateY(-30px);
+    }
+    80% {
+      -webkit-transform: translateY(10px);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+    }
+  }
+  @keyframes bounceInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(500px);
+    }
+    60% {
+      opacity: 1;
+      transform: translateY(-30px);
+    }
+    80% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+}

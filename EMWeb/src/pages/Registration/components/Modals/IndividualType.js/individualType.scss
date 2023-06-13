@@ -1,0 +1,62 @@
+.modal_individual_type {
+  background-color: #fff;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 40px;
+  border-radius: 15px;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  animation: fadein 0.6s;
+
+  @media only screen and (min-width: 300px) and (max-width: 479px) {
+    width: 85%;
+    padding: 28px;
+  }
+
+  .form_label123 {
+    font-size: 20px;
+    font-family: "Poppins-Regular";
+    margin-left: 20px;
+  }
+  .radio_container_type {
+    display: flex;
+    margin-left: 24px;
+    justify-content: flex-start;
+    margin-top: 20px;
+    .a_control {
+      padding-bottom: 15px;
+      margin: 0 10px 0 0;
+      padding-right: 25px;
+      cursor: pointer;
+      .form_label {
+        font-size: 16px;
+        font-family: "Poppins-Medium";
+        margin-left: 10px;
+        cursor: pointer;
+      }
+    }
+  }
+  .form_control_radio_type {
+    cursor: pointer;
+  }
+  .close_container {
+    position: absolute;
+    top: -20px;
+    left: 28vw;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 44px;
+    height: 43px;
+    text-align: center;
+    border: 3px solid black;
+    cursor: pointer;
+
+    .close_icon {
+      font-size: 35px;
+      display: inline-block;
+      font-weight: bold;
+    }
+  }
+}

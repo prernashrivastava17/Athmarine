@@ -1,0 +1,198 @@
+.editProfile_main_container {
+  display: flex;
+  .editProfile_container {
+    width: 81%;
+    background-color: #f8fdff;
+    padding: 20px;
+
+    @media only screen and (min-width: 300px) and (max-width: 479px) {
+      width: 100%;
+      position: relative;
+    }
+    h2 {
+      font-family: "Poppins-Medium";
+      font-size: 12px;
+      line-height: 28px;
+      color: #000000;
+      opacity: 0.7;
+      .editprofile {
+        color: #002c54;
+        opacity: 1;
+      }
+    }
+    h1 {
+      font-family: "Poppins-Medium";
+      font-size: 18px;
+      line-height: 27px;
+      padding-top: 10px;
+      letter-spacing: 0px;
+      color: #001426;
+      opacity: 1;
+    }
+    .form_submit_container {
+      width: 100%;
+      text-align: right;
+      margin-top: 20px;
+
+      @media only screen and (min-width: 300px) and (max-width: 479px) {
+        text-align: center;
+      }
+      .btn {
+        color: #ffffff;
+        font-size: 16px;
+        font-family: "Poppins-Medium";
+        background-color: #001426;
+        padding: 8px 20px;
+        display: inline-block;
+        border-radius: 6px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        border: 2px solid #001426;
+      }
+      .btn_cancel_btn {
+        background-color: transparent;
+        color: #001426;
+        transition: 0.3s;
+
+        &:active {
+          transform: scale(0.92);
+        }
+      }
+      .update_btn {
+        transition: 0.3s;
+        margin-right: 10px;
+
+        &:active {
+          transform: scale(0.92);
+        }
+      }
+    }
+  }
+  .card_container {
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffff;
+    box-shadow: 2px 4px 8px #00000029;
+    transition: 0.3s;
+    opacity: 1;
+    .inputBox_container {
+      position: relative;
+      @media only screen and (min-width: 300px) and (max-width: 479px) {
+        position: inherit;
+        margin-top: 55%;
+      }
+    }
+    .form_label {
+      font-family: "Poppins-Regular";
+      font-size: 16px;
+      line-height: 25px;
+      letter-spacing: 0px;
+      opacity: 1;
+      display: inline-block;
+      color: #001426;
+      width: 30%;
+      margin-bottom: 5px;
+      @media only screen and (min-width: 300px) and (max-width: 479px) {
+        width: 100%;
+      }
+    }
+    .input_container {
+      display: inline-block;
+      align-items: center;
+      width: 60%;
+      margin-bottom: 10px;
+      position: relative;
+      @media only screen and (min-width: 300px) and (max-width: 479px) {
+        width: 100%;
+      }
+    }
+    .form_control_input {
+      width: 70%;
+      border: none;
+      display: inline-block;
+      border-radius: 6px;
+      padding: 8px 5px;
+      font-size: 16px;
+      margin-left: 0;
+      line-height: 24px;
+      font-family: "Poppins-Regular";
+      line-height: unset;
+      background-color: #e1ecf2;
+      box-shadow: none;
+      outline: none;
+      @media only screen and (min-width: 300px) and (max-width: 479px) {
+        width: 100%;
+      }
+    }
+
+    .show_password_container {
+      position: absolute;
+      top: 3px;
+      right: 3px;
+      width: 35px;
+      height: 35px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      background: #e1ecf2;
+      img {
+        cursor: pointer;
+      }
+      @media only screen and (min-width: 300px) and (max-width: 479px) {
+        top: 32px;
+      }
+    }
+
+    .horizontal_line {
+      margin-bottom: 10px;
+      border-top: 1px solid #deebf1;
+    }
+
+    .change_profile_container {
+      position: absolute;
+      top: 0;
+      right: 0;
+      text-align: center;
+      @media only screen and (min-width: 300px) and (max-width: 479px) {
+        position: absolute;
+        top: 10%;
+        left: 0%;
+        text-align: center;
+      }
+
+      .img_container {
+        position: relative;
+
+        img {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          overflow: hidden;
+          display: inline-block;
+        }
+
+        .edit_profile_option {
+          .edit_icon {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            bottom: 0px;
+            right: -13px;
+            cursor: pointer;
+            @media only screen and (min-width: 300px) and (max-width: 479px) {
+              right: 31%;
+            }
+          }
+        }
+      }
+      .profile_heading {
+        font-family: "Poppins-Regular";
+        font-size: 15px;
+        margin-top: 5px;
+        color: #001426;
+      }
+    }
+  }
+}

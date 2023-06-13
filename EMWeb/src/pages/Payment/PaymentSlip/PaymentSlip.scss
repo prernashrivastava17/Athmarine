@@ -1,0 +1,117 @@
+.section_modalPaymentSlip {
+    background-color: #deebf1;
+    display: inline-block;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    padding: 40px;
+    border-radius: 15px;
+    transform: translate(-50%, 0%);
+    width: 60%;
+    height: 100%;
+    animation: fadein 0.5s;
+  
+    @media only screen and (min-width: 300px) and (max-width: 479px) {
+      width: 100%;
+    //   padding: 28px;
+    }
+  
+    .infoPaymentSlip {
+      color: #000000d9;
+      font-size: 18px;
+      font-family: "Poppins-Regular";
+    }
+  
+    .container_areaPaymentSlip {
+      text-align: center;
+  
+      .main_icon_containerPaymentSlip {
+        display: inline-block;
+  
+        .icon_containerPaymentSlip {
+          img {
+            width: 300px;
+            @media only screen and (min-width: 300px) and (max-width: 479px) {
+                width: 180px;
+            }
+          }
+        }
+      }
+
+      .paymentSlip_body {
+        margin-top: 5%;
+        padding: 36px 0px;
+        border-radius: 15px;
+        background-color: white;
+
+        .paymentSlip_row {
+          display: flex;
+          margin: 15px 0px;
+          @media only screen and (min-width: 300px) and (max-width: 479px) {
+          margin: 5px 0px;
+        }
+  
+          .text {
+            padding: 1px 0;
+            width: 50%;
+            text-align: left;
+            color: #000000d9;
+            font-size: 16px;
+            font-family: "Poppins-Regular";
+            padding-left: 12%;
+            @media only screen and (min-width: 300px) and (max-width: 479px) {
+                padding-left: 8%;
+            }
+          }
+          .text_value {
+            padding: 1px 0;
+            width: 50%;
+            text-align:right;
+            color: #000000d9;
+            font-size: 16px;
+            font-family: "Poppins-Regular";
+            padding-right: 13%;
+            word-break: break-all;
+            @media only screen and (min-width: 300px) and (max-width: 479px) {
+                padding-right: 8%;
+            }
+          }
+        }
+      }
+  
+      .headingPaymentSlip {
+        font-size: 20px;
+        font-family: "Poppins-Regular";
+        margin: 20px 0 30px 0;
+      }
+    }
+  }
+  .button_containerPaymentSlip {
+    margin-right: 11%;
+    button {
+      color: #ffffff;
+      font-size: 18px;
+      font-family: "Poppins-Regular";
+      background-color: #001426;
+      padding: 10px 20px;
+      display: inline-block;
+      border-radius: 6px;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      transition: 0.3s;
+      float: right;
+      margin-top: 25px;
+
+      &:active {
+        transform: scale(0.92);
+      }
+    }
+  }
+  .formFieldInputsIconspay-icon{
+    width: 38px;
+    margin-top: 2px;
+    img{
+      width: 36px;
+    }
+  }

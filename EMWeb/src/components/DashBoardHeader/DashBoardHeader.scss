@@ -1,0 +1,125 @@
+header {
+  background-color: #deebf1;
+
+  .header_container {
+    display: flex;
+    padding: 0.8% 2%;
+    align-items: center;
+
+    .header_left_part {
+      width: 55%;
+      display: flex;
+      align-items: center;
+
+      .logo_container {
+        img {
+        }
+      }
+
+      .navigation_container {
+        @media only screen and (min-width: 300px) and (max-width: 479px) {
+          display: none;
+        }
+
+        .nav_items {
+          list-style-type: none;
+          .nav_item {
+            display: inline-block;
+            .nav_link {
+              text-decoration: none;
+              color: #001426;
+              font-size: 16px;
+              margin: 0 20px;
+              font-family: "Poppins-Regular";
+            }
+          }
+        }
+      }
+    }
+
+    .dashboard_header_right_part {
+      display: inline-block;
+      width: 45%;
+      text-align: right;
+      .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: right;
+
+        .bell_container {
+          margin-right: 15px;
+          img {
+            width: 80%;
+          }
+        }
+        .user {
+          display: inline-block;
+          width: 35px;
+          height: 35px;
+          border: 2px solid #ffffff;
+          border-radius: 50%;
+          object-fit: cover;
+          cursor: pointer;
+        }
+
+        .dropdown {
+          float: right;
+          position: relative;
+        }
+
+        .dropdown-content {
+          display: block; //none
+          border-radius: 5px;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 150px;
+          overflow: auto;
+          right: 0;
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          z-index: 1;
+        }
+        .dropdown-content a {
+          color: black;
+          padding: 10px;
+          text-decoration: none;
+          display: flex;
+          float: left;
+        }
+      }
+
+      .btn {
+        text-decoration: none;
+        border: none;
+        font-size: 16px;
+        border-radius: 6px;
+        display: inline-block;
+        border: 2px solid black;
+        font-family: "Poppins-Regular";
+        box-shadow: 3px 5px 10px #00000062;
+
+        &:not(:last-child) {
+          margin-right: 20px;
+        }
+
+        a {
+          display: inline-block;
+          text-decoration: none;
+          padding: 7px 15px;
+          color: inherit;
+        }
+      }
+
+      .black {
+        background-color: #001426;
+        color: #ffffff;
+      }
+
+      .white {
+        background-color: transparent;
+        color: #000;
+        box-shadow: none;
+      }
+    }
+  }
+}

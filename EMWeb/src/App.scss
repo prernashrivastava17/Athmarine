@@ -1,0 +1,193 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: "Poppins-Regular";
+}
+
+@font-face {
+  font-family: "Poppins-Black";
+  src: url("./assets/fonts/Poppins-Black.ttf?v=1.0.0");
+}
+@font-face {
+  font-family: "Poppins-BlackItalic";
+  src: url("./assets/fonts/Poppins-BlackItalic.ttf?v=1.0.0");
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("./assets/fonts/Poppins-Bold.ttf?v=1.0.0");
+}
+@font-face {
+  font-family: "Poppins-BoldItalic";
+  src: url("./assets/fonts/Poppins-BoldItalic.ttf?v=1.0.0");
+}
+@font-face {
+  font-family: "Poppins-ExtraBold";
+  src: url("./assets/fonts/Poppins-ExtraBold.ttf?v=1.0.0");
+}
+@font-face {
+  font-family: "Poppins-ExtraBoldItalic";
+  src: url("./assets/fonts/Poppins-ExtraBoldItalic.ttf?v=1.0.0");
+}
+@font-face {
+  font-family: "Poppins-ExtraLight";
+  src: url("./assets/fonts/Poppins-ExtraLight.ttf?v=1.0.0");
+}
+@font-face {
+  font-family: "Poppins-ExtraLightItalic";
+  src: url("./assets/fonts/Poppins-ExtraLightItalic.ttf?v=1.0.0");
+}
+@font-face {
+  font-family: "Poppins-Italic";
+  src: url("./assets/fonts/Poppins-Italic.ttf?v=1.0.0");
+}
+@font-face {
+  font-family: "Poppins-Light";
+  src: url("./assets/fonts/Poppins-Light.ttf?v=1.0.0");
+}
+@font-face {
+  font-family: "Poppins-LightItalic";
+  src: url("./assets/fonts/Poppins-LightItalic.ttf?v=1.0.0");
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("./assets/fonts/Poppins-Medium.ttf?v=1.0.0");
+}
+@font-face {
+  font-family: "Poppins-MediumItalic";
+  src: url("./assets/fonts/Poppins-MediumItalic.ttf?v=1.0.0");
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("./assets/fonts/Poppins-Regular.ttf?v=1.0.0");
+}
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("./assets/fonts/Poppins-SemiBold.ttf?v=1.0.0");
+}
+@font-face {
+  font-family: "Poppins-SemiBoldItalic";
+  src: url("./assets/fonts/Poppins-SemiBoldItalic.ttf?v=1.0.0");
+}
+@font-face {
+  font-family: "Poppins-Thin";
+  src: url("./assets/fonts/Poppins-Thin.ttf?v=1.0.0");
+}
+@font-face {
+  font-family: "Poppins-ThinItalic";
+  src: url("./assets/fonts/Poppins-ThinItalic.ttf?v=1.0.0");
+}
+
+// ------------------------ Number Input Box validation ------------------------
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+// ------------------------ Form Error message ------------------------
+.error {
+  color: red !important;
+  font-size: 13.9px !important;
+  padding: 5px !important;
+  display: block;
+  font-family: "Poppins-Medium";
+  letter-spacing: 0.5px;
+}
+
+// ------------------------ disable anchor tag  ------------------------
+
+.disable-anchor {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.6;
+}
+
+// ------------------------ Global style  ------------------------
+select:disabled {
+  background-color: #d4e4ec26 !important;
+}
+
+.flatpickr-months {
+  background: #001426 !important;
+}
+
+.flatpickr-weekdays {
+  background: #001426 !important;
+}
+span.flatpickr-weekday {
+  background-color: #001426 !important;
+  color: white;
+}
+
+.flatpickr-months .flatpickr-month {
+  background-color: #001426 !important;
+}
+
+.flatpickr-current-month .flatpickr-monthDropdown-months {
+  background-color: #001426 !important;
+}
+
+.flatpickr-current-month
+  .flatpickr-monthDropdown-months
+  .flatpickr-monthDropdown-month {
+  background-color: #001426 !important;
+}
+
+span.flatpickr-weekday {
+  color: white !important;
+}
+
+.flatpickr-monthDropdown-month:hover {
+  background-color: orange !important;
+}
+input.numInput.cur-year:hover {
+  color: white !important;
+  background-color: #001426 !important;
+}
+.flatpickr-day.selected,
+.flatpickr-day.startRange,
+.flatpickr-day.endRange,
+.flatpickr-day.selected.inRange,
+.flatpickr-day.startRange.inRange,
+.flatpickr-day.endRange.inRange,
+.flatpickr-day.selected:focus,
+.flatpickr-day.startRange:focus,
+.flatpickr-day.endRange:focus,
+.flatpickr-day.selected:hover,
+.flatpickr-day.startRange:hover,
+.flatpickr-day.endRange:hover,
+.flatpickr-day.selected.prevMonthDay,
+.flatpickr-day.startRange.prevMonthDay,
+.flatpickr-day.endRange.prevMonthDay,
+.flatpickr-day.selected.nextMonthDay,
+.flatpickr-day.startRange.nextMonthDay,
+.flatpickr-day.endRange.nextMonthDay {
+  border-color: white !important;
+  background-color: #001426 !important;
+}
+.css-1wy0on6 {
+  display: none !important;
+}
+.css-tlfecz-indicatorContainer {
+  display: none !important;
+}
+.css-1wa3eu0-placeholder {
+  font-family: "Poppins-Regular" !important;
+  font-size: 12px !important;
+  // z-index: 9;
+}
+
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}

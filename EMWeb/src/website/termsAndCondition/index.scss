@@ -1,0 +1,91 @@
+.section_termandconditions {
+  padding: 0 2%;
+  margin-top: 25px;
+  margin-bottom: 70px;
+
+  h1 {
+    font-family: "Poppins-regular";
+    font-size: 38px;
+    text-align: center;
+    color: #001426;
+    margin-bottom: 25px;
+
+    @media only screen and (min-width: 300px) and (max-width: 479px) {
+      font-size: 27px;
+      margin-bottom: 10px;
+    }
+  }
+  .main_wrapper {
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 18px 24px;
+
+    .wrapper_container {
+      .primary_heading {
+        font-family: "Poppins-bold";
+        font-size: 21px;
+        line-height: 23px;
+        color: #001426;
+        margin-bottom: 15px;
+        margin-top: 30px;
+        text-align: justify;
+        line-height: 35px;
+      }
+      .secondary_heading {
+        font-family: "Poppins-Regular";
+        font-size: 18px;
+        line-height: 23px;
+        color: #001426;
+        display: inline-block;
+        margin: 15px 0;
+        text-align: justify;
+        line-height: 35px;
+      }
+      .starting_heading {
+        font-family: "Poppins-Medium";
+        font-size: 18px;
+        line-height: 23px;
+        color: #001426;
+        display: inline-block;
+      }
+      .body {
+        display: inline;
+        .para {
+          font-family: "Poppins-Regular";
+          font-size: 18px;
+          line-height: 23px;
+          color: #001426;
+          display: inline-block;
+          margin: 8px 0;
+          text-align: justify;
+          line-height: 35px;
+        }
+      }
+      .listing {
+        list-style-position: outside;
+        margin-left: 35px;
+        font-family: "Poppins-Regular";
+        font-size: 18px;
+        line-height: 23px;
+        color: #001426;
+        text-align: justify;
+        line-height: 35px;
+        li {
+          margin-bottom: 10px;
+          line-height: 35px;
+          text-align: justify;
+        }
+      }
+      .bottom_body {
+        .para {
+          font-family: "Poppins-Regular";
+          font-size: 18px;
+          line-height: 23px;
+          color: #001426;
+          text-align: justify;
+          line-height: 35px;
+        }
+      }
+    }
+  }
+}

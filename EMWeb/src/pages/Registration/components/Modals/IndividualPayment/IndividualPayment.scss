@@ -1,0 +1,54 @@
+.modal_confirmation_modal {
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 35px;
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    animation: fadein 0.6s;
+  
+    @media only screen and (min-width: 300px) and (max-width: 479px) {
+      width: 85%;
+      padding: 28px;
+    }
+  
+    .modal_heading {
+      font-size: 23px;
+      font-family: "Poppins-Medium";
+    }
+  
+    .modal_text {
+      font-size: 16px;
+      font-family: "Poppins-Regular";
+      line-height: 18px;
+      margin-block: 10px;
+    }
+  
+    .button_container {
+      text-align: right;
+  
+      .btn {
+        display: inline-block;
+        font-size: 15px;
+        font-family: "Poppins-Medium";
+        cursor: pointer;
+  
+        &:not(:last-child) {
+          margin-right: 20px;
+        }
+      }
+  
+      .btn_cancel {
+      color: #001426;
+      border: 1px solid #001426;
+      background-color: #fff;
+      }
+  
+      .btn_ok {
+      }
+    }
+  }
+  
