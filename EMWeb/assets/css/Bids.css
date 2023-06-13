@@ -1,0 +1,215 @@
+.Bids_container {
+  width: 81%;
+  background-color: #f8fdff;
+  padding: 20px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .Bids_container {
+    width: 100%;
+    padding: 20px 20px 40px 20px;
+  }
+}
+
+.Bids_container .bredcrum {
+  color: #000000b3;
+  font-size: 12px;
+  font-family: "Poppins-Regular";
+}
+
+.Bids_container .bredcrum .active_page {
+  color: #002c54;
+  font-size: 12px;
+  font-family: "Poppins-Medium";
+}
+
+.Bids_container .main_heading {
+  color: #001426;
+  font-size: 18px;
+  font-family: "Poppins-Medium";
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+.Bids_container .mobile_responsive_view {
+  display: none;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .Bids_container .mobile_responsive_view {
+    display: block;
+  }
+}
+
+.Bids_container .desktop_responsive_view {
+  display: block;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .Bids_container .desktop_responsive_view {
+    display: none;
+  }
+}
+
+.Bids_container .mobile_responsive_view .Bids_wrapper,
+.Bids_container .desktop_responsive_view .Bids_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Bids_container .mobile_responsive_view .Bids_wrapper .Bid_details,
+.Bids_container .desktop_responsive_view .Bids_wrapper .Bid_details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #deebf1;
+  width: 48.5%;
+  border-radius: 9px;
+  padding: 20px 25px;
+  -webkit-box-shadow: 2px 4px 8px #00000029;
+          box-shadow: 2px 4px 8px #00000029;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .Bids_container .mobile_responsive_view .Bids_wrapper .Bid_details,
+  .Bids_container .desktop_responsive_view .Bids_wrapper .Bid_details {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.Bids_container .mobile_responsive_view .Bids_wrapper .Bid_details .col .item,
+.Bids_container .desktop_responsive_view .Bids_wrapper .Bid_details .col .item {
+  margin-top: 5px;
+}
+
+.Bids_container .mobile_responsive_view .Bids_wrapper .Bid_details .col .item .heading,
+.Bids_container .desktop_responsive_view .Bids_wrapper .Bid_details .col .item .heading {
+  color: #000000d9;
+  font-size: 18px;
+  font-family: "Poppins-Medium";
+}
+
+.Bids_container .mobile_responsive_view .Bids_wrapper .Bid_details .col .item .text,
+.Bids_container .desktop_responsive_view .Bids_wrapper .Bid_details .col .item .text {
+  color: #000000d9;
+  font-size: 18px;
+  font-family: "Poppins-Regular";
+}
+
+.Bids_container .mobile_responsive_view .Bids_wrapper .Bid_details .col .Bid_label,
+.Bids_container .desktop_responsive_view .Bids_wrapper .Bid_details .col .Bid_label {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Poppins-Regular";
+  padding: 8px 14px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  border: 2px solid #001426;
+}
+
+.Bids_container .mobile_responsive_view .Bids_wrapper .Bid_details .col_1,
+.Bids_container .desktop_responsive_view .Bids_wrapper .Bid_details .col_1 {
+  width: 35%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .Bids_container .mobile_responsive_view .Bids_wrapper .Bid_details .col_1,
+  .Bids_container .desktop_responsive_view .Bids_wrapper .Bid_details .col_1 {
+    width: 70%;
+  }
+}
+
+.Bids_container .mobile_responsive_view .Bids_wrapper .Bid_details .col_2,
+.Bids_container .desktop_responsive_view .Bids_wrapper .Bid_details .col_2 {
+  width: 35%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .Bids_container .mobile_responsive_view .Bids_wrapper .Bid_details .col_2,
+  .Bids_container .desktop_responsive_view .Bids_wrapper .Bid_details .col_2 {
+    width: 70%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+
+.Bids_container .mobile_responsive_view .Bids_wrapper .Bid_details .col_3,
+.Bids_container .desktop_responsive_view .Bids_wrapper .Bid_details .col_3 {
+  width: 30%;
+}
+
+.Bids_container .mobile_responsive_view .Bids_wrapper .awssld__content,
+.Bids_container .desktop_responsive_view .Bids_wrapper .awssld__content {
+  background-color: #fff;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .Bids_container .mobile_responsive_view .Bids_wrapper nav.awssld__bullets,
+  .Bids_container .desktop_responsive_view .Bids_wrapper nav.awssld__bullets {
+    margin-bottom: -10px;
+  }
+}
+
+.Bids_container .mobile_responsive_view .Bids_wrapper .awssld__bullets,
+.Bids_container .desktop_responsive_view .Bids_wrapper .awssld__bullets {
+  bottom: -25px;
+}
+
+.Bids_container .mobile_responsive_view .Bids_wrapper .awssld__bullets button,
+.Bids_container .desktop_responsive_view .Bids_wrapper .awssld__bullets button {
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
+.Bids_container .mobile_responsive_view .Bids_wrapper .awssld__wrapper,
+.Bids_container .desktop_responsive_view .Bids_wrapper .awssld__wrapper {
+  border-radius: 9px;
+}
+
+.Bids_container .mobile_responsive_view .Bids_wrapper .awssld__container,
+.Bids_container .desktop_responsive_view .Bids_wrapper .awssld__container {
+  height: 470px;
+}
+
+.Bids_container .mobile_responsive_view .Bids_wrapper .aws-btn,
+.Bids_container .desktop_responsive_view .Bids_wrapper .aws-btn {
+  --slider-height-percentage: 100%;
+  --slider-transition-duration: 700ms;
+  --organic-arrow-thickness: 4px;
+  --organic-arrow-border-radius: 0px;
+  --organic-arrow-height: 17px;
+  --organic-arrow-color: #1a1b1b;
+  --control-button-width: 10%;
+  --control-button-height: 43%;
+  --control-button-background: transparent;
+  --control-bullet-color: #6b6b6e;
+  --control-bullet-active-color: #111111;
+  --loader-bar-color: #851515;
+  --loader-bar-height: 5px;
+}
+/*# sourceMappingURL=Bids.css.map */

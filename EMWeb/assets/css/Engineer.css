@@ -1,0 +1,834 @@
+.form_container_area {
+  width: 73%;
+  padding: 50px 40px;
+  background-color: rgba(222, 235, 241, 0.9);
+  border-radius: 0 30px 30px 0;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area {
+    width: 100%;
+    padding: 20px;
+    border-radius: 0%;
+  }
+}
+
+.form_container_area .engineer_form {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.form_container_area .engineer_form .nav_container {
+  margin: 0 40px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form .nav_container {
+    margin: 0;
+  }
+}
+
+.form_container_area .engineer_form .nav_container .nav_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  z-index: 99;
+  margin-bottom: 25px;
+}
+
+.form_container_area .engineer_form .nav_container .nav_items .active {
+  background-color: #001426;
+  color: white;
+}
+
+.form_container_area .engineer_form .nav_container .nav_items .nav_item {
+  border: 2px solid #001426;
+  padding: 5px 18px;
+  border-radius: 45px;
+  font-size: 19px;
+  font-family: "Poppins-Medium";
+  position: relative;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form .nav_container .nav_items .nav_item {
+    font-size: 12px;
+    padding: 10px 12px;
+  }
+}
+
+.form_container_area .engineer_form .nav_container .nav_items .nav_item .info_red_icon {
+  position: absolute;
+  right: -25px;
+  top: -10px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form .nav_container .nav_items .nav_item .info_red_icon {
+    right: -18px;
+    top: -10px;
+  }
+}
+
+.form_container_area .engineer_form .nav_container .nav_items .horizotal_row_container {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.form_container_area .engineer_form .nav_container .nav_items .horizotal_row_container .active {
+  background-color: #001426 !important;
+}
+
+.form_container_area .engineer_form .nav_container .nav_items .horizotal_row_container .horizontal_row {
+  background: #00000065;
+  width: 100%;
+  height: 4px;
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.form_container_area .engineer_form .nav_container .horizontal_line {
+  position: absolute;
+  background-color: #001426;
+  width: 100%;
+  height: 5px;
+  top: 22px;
+  z-index: 9;
+}
+
+.form_container_area .engineer_form .add_bidder_container {
+  margin: 0 40px;
+  margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form .add_bidder_container {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+}
+
+.form_container_area .engineer_form .add_bidder_container .bidder {
+  display: inline-block;
+  font-size: 19px;
+  border-radius: 50%;
+  padding: 10px;
+  border: 2px solid #001426;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.form_container_area .engineer_form .add_bidder_container .completed {
+  background-color: transparent;
+}
+
+.form_container_area .engineer_form .add_bidder_container .active {
+  background-color: #001426;
+  color: white;
+}
+
+.form_container_area .engineer_form .company_id_details {
+  margin: 0 40px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form .company_id_details {
+    margin: 0;
+  }
+}
+
+.form_container_area .engineer_form .company_id_details .company_id {
+  font-size: 18px;
+  color: #001426;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Poppins-Medium";
+  margin-bottom: 18px;
+}
+
+.form_container_area .engineer_form form .form_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 40px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form form .form_container {
+    margin: 0;
+  }
+}
+
+.form_container_area .engineer_form form .form_container .with_form_control_area {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.form_container_area .engineer_form form .form_container .with_form_control_area .form_label {
+  display: inline-block;
+  color: #000000;
+  font-size: 18px;
+  font-family: "Poppins-Regular";
+  margin-bottom: 5px;
+}
+
+.form_container_area .engineer_form form .form_container .with_form_control_area .form_label .label_mandatory {
+  color: #eb4146;
+}
+
+.form_container_area .engineer_form form .form_container .with_form_control_area .form_control {
+  display: block;
+  width: 47%;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  line-height: 2.5;
+  font-size: 16px;
+  padding: 0 13px;
+  font-family: "Poppins-Regular";
+  color: #000000d9;
+  -webkit-box-shadow: 3px 5px 10px #00000034;
+          box-shadow: 3px 5px 10px #00000034;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form form .form_container .with_form_control_area .form_control {
+    width: 100%;
+  }
+}
+
+.form_container_area .engineer_form form .form_container .with_form_control_area .sub_label {
+  font-size: 16px;
+  color: #ea5359;
+  font-family: "Poppins-Medium";
+}
+
+.form_container_area .engineer_form form .form_container .form_control_area {
+  width: 47%;
+  margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form form .form_container .form_control_area {
+    width: 100%;
+  }
+}
+
+.form_container_area .engineer_form form .form_container .form_control_area .form_label {
+  display: inline-block;
+  color: #000000;
+  font-size: 18px;
+  font-family: "Poppins-Regular";
+  margin-bottom: 5px;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_area .form_label .label_mandatory {
+  color: #eb4146;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_area .form_control {
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  line-height: 2.5;
+  font-size: 16px;
+  padding: 0 13px;
+  font-family: "Poppins-Regular";
+  color: #000000d9;
+  -webkit-box-shadow: 3px 5px 10px #00000034;
+          box-shadow: 3px 5px 10px #00000034;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_area select {
+  background-color: #fff;
+  background-image: url("./../../../../../assets/images/drop-icon.svg");
+  background-position: right 15px center;
+  background-repeat: no-repeat;
+  background-size: 4% 50%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_area select::-ms-expand {
+  display: none;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_area .input_container .select_input {
+  line-height: 2.5;
+  font-size: 16px;
+  padding: 0 13px;
+  border-radius: 6px 0px 0px 6px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  -webkit-box-shadow: 3px 5px 10px #00000034;
+          box-shadow: 3px 5px 10px #00000034;
+  border-right: 1px solid #00000014;
+  background-color: #fff;
+  background-image: url("./../../../../../assets/images/drop-icon.svg");
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+  background-size: 16% 50%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_area .input_container .form_control_phone {
+  display: inline-block;
+  width: 75%;
+  border-left: none;
+  border-radius: 0px 6px 6px 0px;
+  border: none;
+  outline: none;
+  line-height: 2.5;
+  font-size: 16px;
+  padding: 0 13px;
+  font-family: "Poppins-Regular";
+  color: #000000d9;
+  -webkit-box-shadow: 5px 5px 10px #00000034;
+          box-shadow: 5px 5px 10px #00000034;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .form_label {
+  display: inline-block;
+  color: #000000;
+  font-size: 18px;
+  font-family: "Poppins-Regular";
+  margin-bottom: 5px;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .form_label .label_mandatory {
+  color: #eb4146;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .form_control {
+  display: inline-block;
+  width: 47%;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  line-height: 2.5;
+  font-size: 16px;
+  padding: 0 13px;
+  font-family: "Poppins-Regular";
+  color: #000000d9;
+  -webkit-box-shadow: 3px 5px 10px #00000034;
+          box-shadow: 3px 5px 10px #00000034;
+  margin-left: 20px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form form .form_container .form_control_spread .form_control {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread select {
+  background-color: #fff;
+  background-image: url("./../../../../../assets/images/drop-icon.svg");
+  background-position: right 15px center;
+  background-repeat: no-repeat;
+  background-size: 4% 50%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread select::-ms-expand {
+  display: none;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .a_control {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .a_control input[type="radio"] {
+  display: none;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .a_control label {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+  font-size: 16px;
+  font-family: "Poppins-Light";
+  cursor: pointer;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .a_control label::before,
+.form_container_area .engineer_form form .form_container .form_control_spread .a_control label::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .a_control label::before {
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background: #f3f3f3;
+  border: 1px solid #284460;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .a_control label:hover::before {
+  background: #fff;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .a_control label::after {
+  opacity: 0;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background: #284460;
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .a_control input[type="radio"]:checked + label::before {
+  background: #fff;
+  border: 1px solid #284460;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .a_control input[type="radio"]:checked + label::after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .radio_container {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form form .form_container .form_control_spread .radio_container {
+    display: block;
+    margin-left: 0;
+  }
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container {
+  background: white;
+  border-radius: 9px;
+  -webkit-box-shadow: 3px 5px 10px #00000034;
+          box-shadow: 3px 5px 10px #00000034;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .awssld__content {
+  background-color: #fff;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .awssld__bullets button {
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .aws-btn {
+  --slider-height-percentage: 100%;
+  --slider-transition-duration: 700ms;
+  --organic-arrow-thickness: 4px;
+  --organic-arrow-border-radius: 0px;
+  --organic-arrow-height: 17px;
+  --organic-arrow-color: #1a1b1b;
+  --control-button-width: 10%;
+  --control-button-height: 43%;
+  --control-button-background: transparent;
+  --control-bullet-color: #6b6b6e;
+  --control-bullet-active-color: #111111;
+  --loader-bar-color: #851515;
+  --loader-bar-height: 5px;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .display_carousel {
+  display: none;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .display_carousel {
+    display: block !important;
+  }
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .no_carousel {
+  display: block;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .no_carousel {
+    display: none !important;
+  }
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #0000001c;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_heading {
+    display: none !important;
+  }
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_heading .heading {
+  color: #000000;
+  font-size: 16px;
+  font-family: "Poppins-Medium";
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_heading .a_add {
+  width: 5%;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_heading .a_category,
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_heading .a_equipment,
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_heading .a_make,
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_heading .a_experience,
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_heading .a_upload_certificate {
+  width: 25%;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row {
+  padding: 10px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row {
+    padding: 15px;
+  }
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body {
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
+  }
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .a_add {
+  width: 5%;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .a_category,
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .a_equipment,
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .a_make,
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .a_experience,
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .a_upload_certificate {
+  width: 18%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .a_category,
+  .form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .a_equipment,
+  .form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .a_make,
+  .form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .a_experience,
+  .form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .a_upload_certificate {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .a_upload_certificate .uploadFileName {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 110px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .a_upload_certificate {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 0;
+  }
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .a_upload_certificate .uploadFileName {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 110px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .a_add {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 8%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 1%;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .a_remove {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 8%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 1%;
+  }
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col .mobile_label {
+  color: #000000cc;
+  font-size: 15px;
+  font-family: "Poppins-Medium";
+  display: none;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col .mobile_label {
+    display: inline-block;
+  }
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col .a_form_control {
+  width: 90%;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 10px;
+  background-color: #e1ecf2;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col .a_form_control {
+    width: 100%;
+  }
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col input[type="file"] {
+  display: none;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col select {
+  background-image: url("./../../../../../assets/images/drop-icon.svg");
+  background-position: right 7px center;
+  background-repeat: no-repeat;
+  background-size: 10% 50%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col select {
+    background-position: right 12px center;
+    background-size: 5% 50%;
+  }
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col select::-ms-expand {
+  display: none;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col .a_upload {
+  background-color: #fff;
+  display: block;
+  padding: 3px;
+  border-radius: 6px;
+  border: 2px solid #001426;
+  font-size: 15px;
+  text-align: center;
+  width: 90%;
+  cursor: pointer;
+  font-family: "Poppins-Medium";
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col .a_upload {
+    display: inline-block;
+    width: auto;
+    padding: 5px 15px;
+    margin-right: 4px;
+  }
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col .add_more {
+  color: white;
+  background: #001426;
+  padding: 0 6px;
+  font-size: 22px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .instruction {
+  margin-top: 8px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form form .form_container .form_control_spread .instruction {
+    margin-top: 35px;
+  }
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .instruction .note_inst {
+  color: #eb4146;
+  font-size: 14px;
+  font-family: "Poppins-Medium";
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .instruction .main_inst {
+  color: #000000;
+  font-size: 13px;
+  font-family: "Poppins-Regular";
+}
+
+.form_container_area .engineer_form form .form_container .form_control_spread .instruction .click_inst {
+  color: #eb4146;
+  font-size: 14px;
+  font-family: "Poppins-Medium";
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.form_container_area .engineer_form form .form_container .form_submit_container {
+  width: 100%;
+  text-align: right;
+  bottom: 0;
+  right: 0;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form form .form_container .form_submit_container {
+    text-align: center;
+  }
+}
+
+.form_container_area .engineer_form form .form_container .form_submit_container .btn {
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: "Poppins-Medium";
+}
+
+.form_container_area .engineer_form form .form_container .form_submit_container .btn_submit_form {
+  color: #ffffff;
+  background-color: #001426;
+  margin-left: 20px;
+  border: 2px solid #001426;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.form_container_area .engineer_form form .form_container .form_submit_container .btn_submit_form:active {
+  -webkit-transform: scale(0.92);
+          transform: scale(0.92);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form form .form_container .form_submit_container .btn_submit_form {
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+}
+
+.form_container_area .engineer_form form .form_container .form_submit_container .btn_add_bidder {
+  color: #001426;
+  background-color: transparent;
+  border: 2px solid #001426;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.form_container_area .engineer_form form .form_container .form_submit_container .btn_add_bidder:active {
+  -webkit-transform: scale(0.92);
+          transform: scale(0.92);
+}
+
+.form_container_area .engineer_form form .form_container .m-top {
+  margin-top: 120px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .engineer_form form .form_container .m-top {
+    margin-top: 0;
+  }
+}
+/*# sourceMappingURL=Engineer.css.map */

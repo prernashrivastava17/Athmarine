@@ -1,0 +1,149 @@
+.my_email_otp_container {
+  position: relative;
+  background-image: url("./../../assets/images/login-main-banner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.my_email_otp_container .login_wrapper {
+  display: inline-block;
+  margin: 7% 0;
+  width: 50%;
+  border-radius: 30px;
+  padding: 50px;
+  background-color: rgba(222, 235, 241, 0.9);
+  -webkit-box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.9);
+          box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.9);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .my_email_otp_container .login_wrapper {
+    width: 90%;
+    padding: 40px 10px;
+  }
+}
+
+.my_email_otp_container .login_wrapper .card_body .card_heading {
+  color: #000000d9;
+  font-size: 25px;
+  font-family: "Poppins-Medium";
+}
+
+.my_email_otp_container .login_wrapper .card_body .img_container {
+  margin-block: 25px 15px;
+}
+
+.my_email_otp_container .login_wrapper .card_body .img_container img {
+  width: 13%;
+}
+
+.my_email_otp_container .login_wrapper .card_body .card_text {
+  color: #000000d9;
+  font-size: 21px;
+  font-family: "Poppins-Regular";
+  margin-block: 15px;
+}
+
+.my_email_otp_container .login_wrapper .card_body .text_with_timer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0px 15%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .my_email_otp_container .login_wrapper .card_body .text_with_timer {
+    margin: 0px 3%;
+  }
+}
+
+.my_email_otp_container .login_wrapper .card_body .text_with_timer .otp_text {
+  color: #000000d9;
+  font-size: 21px;
+  font-family: "Poppins-Regular";
+}
+
+.my_email_otp_container .login_wrapper .card_body .enter_otp_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.my_email_otp_container .login_wrapper .card_body .enter_otp_container input {
+  text-align: center;
+  display: inline-block;
+  width: 14%;
+  height: 55px;
+  font-size: 30px;
+  line-height: 55px;
+  border: none;
+  border-radius: 6px;
+  padding: 20px 10px;
+  -webkit-box-shadow: 3px 5px 10px #00000034;
+          box-shadow: 3px 5px 10px #00000034;
+  margin-right: 10px;
+}
+
+.my_email_otp_container .login_wrapper .card_body .timer1 {
+  color: #2a4362;
+  font-size: 21px;
+  font-family: "Poppins-SemiBold";
+}
+
+.my_email_otp_container .login_wrapper .card_body .secondary_text {
+  margin-block: 20px 50px;
+}
+
+.my_email_otp_container .login_wrapper .card_body .secondary_text .first_text {
+  color: #000000d9;
+  font-size: 21px;
+  font-family: "Poppins-Regular";
+  display: inline-block;
+}
+
+.my_email_otp_container .login_wrapper .card_body .secondary_text .resend {
+  color: #2a4362;
+  font-size: 21px;
+  font-family: "Poppins-Medium";
+  display: inline-block;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.my_email_otp_container .login_wrapper .card_body .secondary_text .resend .resend_icon {
+  width: 15px;
+}
+
+.my_email_otp_container .login_wrapper .card_body .submit_container {
+  display: inline-block;
+  width: 100%;
+}
+
+.my_email_otp_container .login_wrapper .card_body .submit_container .a_submit {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Poppins-Medium";
+  background-color: black;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.my_email_otp_container .login_wrapper .card_body .submit_container .a_submit:active {
+  -webkit-transform: scale(0.92);
+          transform: scale(0.92);
+}
+/*# sourceMappingURL=VerifyWebEmailOTP.css.map */

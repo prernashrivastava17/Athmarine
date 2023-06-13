@@ -1,0 +1,161 @@
+.login_container {
+  position: relative;
+  background-image: url("./../../assets/images/login-main-banner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .login_container {
+    background-size: 175% 130%;
+  }
+}
+
+.login_container .login_wrapper {
+  display: inline-block;
+  margin: 7% 0;
+  border-radius: 30px;
+  padding: 50px;
+  background-color: rgba(222, 235, 241, 0.9);
+  -webkit-box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.9);
+          box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.9);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .login_container .login_wrapper {
+    display: inline-block;
+    margin: 10% 0;
+    border-radius: 9px;
+    padding: 30px;
+    background-color: rgba(222, 235, 241, 0.9);
+    -webkit-box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.9);
+            box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.9);
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .login_container .login_wrapper .card_header {
+    margin-top: 20px;
+  }
+}
+
+.login_container .login_wrapper .card_header .display_user_icon_container .display_user_icon {
+  width: 18%;
+}
+
+.login_container .login_wrapper .card_header .login_info {
+  color: #001426;
+  font-size: 26px;
+  font-family: "Poppins-Medium";
+  padding: 0 30px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .login_container .login_wrapper .card_header .login_info {
+    font-size: 18px;
+    padding: 0;
+  }
+}
+
+.login_container .login_wrapper .card_body {
+  margin-top: 40px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .login_container .login_wrapper .card_body {
+    margin-top: 20px;
+  }
+}
+
+.login_container .login_wrapper .card_body .form_control_fluid {
+  text-align: left;
+}
+
+.login_container .login_wrapper .card_body .form_control_fluid:first-child {
+  margin-bottom: 17px;
+}
+
+.login_container .login_wrapper .card_body .form_control_fluid .form_label {
+  font-size: 21px;
+  color: rgba(0, 0, 0, 0.85);
+  font-family: "Poppins-Regular";
+  width: 100%;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .login_container .login_wrapper .card_body .form_control_fluid .form_label {
+    font-size: 14px;
+  }
+}
+
+.login_container .login_wrapper .card_body .form_control_fluid .form_label .label_mandatory {
+  color: #eb4146;
+  font-size: 25px;
+}
+
+.login_container .login_wrapper .card_body .form_control_fluid .form_control {
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  line-height: 2.5;
+  font-size: 16px;
+  padding: 0 13px;
+  font-family: "Poppins-Regular";
+  color: #000000d9;
+  -webkit-box-shadow: 3px 5px 10px #00000034;
+          box-shadow: 3px 5px 10px #00000034;
+}
+
+.login_container .login_wrapper .card_body .forget_container {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.login_container .login_wrapper .card_body .forget_container .forget_text {
+  color: #000000;
+  font-size: 16px;
+  font-family: "Poppins-Regular";
+  display: inline-block;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .login_container .login_wrapper .card_body .forget_container .forget_text {
+    font-size: 12px;
+    font-family: "Poppins-Medium";
+  }
+}
+
+.login_container .login_wrapper .card_body .submit_form_container {
+  margin-top: 40px;
+}
+
+.login_container .login_wrapper .card_body .submit_form_container input {
+  border: none;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #001426;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 7px 30px;
+  display: inline-block;
+  font-family: "Poppins-Regular";
+  -webkit-box-shadow: 3px 5px 10px #00000062;
+          box-shadow: 3px 5px 10px #00000062;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.login_container .login_wrapper .card_body .submit_form_container input:active {
+  -webkit-transform: scale(0.92);
+          transform: scale(0.92);
+}
+/*# sourceMappingURL=Login.css.map */

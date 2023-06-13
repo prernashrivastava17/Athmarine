@@ -1,0 +1,240 @@
+.chat_container {
+  width: 100%;
+}
+
+.chat_container .container {
+  width: 100%;
+  background-color: #f8fdff;
+  padding: 20px 30px;
+}
+
+.chat_container .container h2 {
+  font-family: "Poppins-Medium";
+  font-size: 12px;
+  line-height: 28px;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.chat_container .container h2 .editprofile {
+  color: #002c54;
+  opacity: 1;
+}
+
+.chat_container .container h1 {
+  font-family: "Poppins-Medium";
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0px;
+  color: #001426;
+  opacity: 1;
+}
+
+.chat_container .container .Request_card_container {
+  padding-top: 10px;
+}
+
+.chat_container .container .Request_card_container .requestor_box_container {
+  background-color: #deebf1;
+  -webkit-box-shadow: 2px 4px 8px #00000029;
+          box-shadow: 2px 4px 8px #00000029;
+  border-radius: 9px;
+  opacity: 1;
+  padding: 10px;
+  width: 100%;
+}
+
+.chat_container .container .Request_card_container .requestor_box_container .box_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 20px;
+}
+
+.chat_container .container .Request_card_container .requestor_box_container .box_container .block_container {
+  position: relative;
+  width: 25%;
+}
+
+.chat_container .container .Request_card_container .requestor_box_container .box_container .block_container .card_heading {
+  display: inline-block;
+  font-family: "Poppins-Medium";
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0px;
+  color: #000000d9;
+}
+
+.chat_container .container .Request_card_container .requestor_box_container .box_container .block_container .cardSubHeading {
+  font-family: "Poppins-Medium";
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0px;
+  color: #000000d9;
+}
+
+.chat_container .container .Request_card_container .requestor_box_container .box_container .block_container .time_container_wraper {
+  width: 60%;
+  float: right;
+}
+
+.chat_container .container .Request_card_container .requestor_box_container .box_container .block_container .time_container_wraper .time_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.chat_container .container .Request_card_container .requestor_box_container .box_container .block_container .time_container_wraper .time_container .time_HH_MM {
+  font-family: "Poppins-Medium";
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0px;
+  color: #000000d9;
+}
+
+.chat_container .container .Request_card_container .requestor_box_container .box_container .block_container .label_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.chat_container .container .Request_card_container .requestor_box_container .box_container .block_container .label_container .label {
+  width: 50px;
+  font-family: "Poppins-Medium";
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0px;
+  color: #000000d9;
+  padding: 7px 10px;
+  opacity: 0.85;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  border-radius: 6px;
+  opacity: 1;
+  text-align: center;
+}
+
+.chat_container .container .Request_card_container .requestor_box_container .box_container .view_attachements_container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.chat_container .container .Request_card_container .requestor_box_container .box_container .view_attachements_container .viewAttachements_img {
+  padding-right: 10px;
+}
+
+.chat_container .container .Request_card_container .requestor_box_container .box_container .view_attachements_container .view_attachements {
+  font-family: "Poppins-Medium";
+  font-size: 18px;
+  line-height: 27px;
+  color: #001426;
+}
+
+.chat_container .container .Request_card_container .chat_container {
+  padding: 10px 0px;
+}
+
+.chat_container .container .Request_card_container .chat_container .chat_box_container {
+  background-color: #deebf1;
+  -webkit-box-shadow: 2px 4px 8px #00000029;
+          box-shadow: 2px 4px 8px #00000029;
+  border-radius: 9px;
+  opacity: 1;
+  margin-bottom: 2%;
+  width: 100%;
+}
+
+.chat_container .container .Request_card_container .chat_container .chat_box_container .chat_msg_container {
+  padding: 10px;
+}
+
+.chat_container .container .Request_card_container .chat_container .chat_box_container .chat_msg_container .vendor_message_box {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  border-radius: 90px 90px 90px 0px;
+  padding: 20px;
+  width: 60%;
+  margin-top: 1%;
+  margin-bottom: 4%;
+}
+
+.chat_container .container .Request_card_container .chat_container .chat_box_container .chat_msg_container .vendor_message_box .vendor_msg {
+  font-family: "Poppins-Regular";
+  font-size: 16px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.chat_container .container .Request_card_container .chat_container .chat_box_container .chat_msg_container .receiver_message_box {
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+}
+
+.chat_container .container .Request_card_container .chat_container .chat_box_container .chat_msg_container .receiver_message_box .receiver_msg_container {
+  display: inline-block;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  border-radius: 90px 90px 0px 90px;
+  padding: 20px;
+  width: 60%;
+  margin-bottom: 2%;
+}
+
+.chat_container .container .Request_card_container .chat_container .chat_box_container .chat_msg_container .receiver_message_box .receiver_msg_container .receiver_msg {
+  font-family: "Poppins-Regular";
+  font-size: 16px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.chat_container .container .Request_card_container .chat_container .input_container {
+  padding: 5px;
+  position: relative;
+  width: 100%;
+}
+
+.chat_container .container .Request_card_container .chat_container .form_control_input {
+  width: 100%;
+  border: none;
+  display: inline-block;
+  border-radius: 6px;
+  padding: 16px;
+  font-size: 18px;
+  margin-left: 0;
+  line-height: 24px;
+  font-family: "Poppins-Medium";
+  line-height: unset;
+  background-color: #001426;
+  color: #ffffff80;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+
+.chat_container .container .Request_card_container .chat_container .chat_icon {
+  position: absolute;
+  right: 0;
+  width: 50px;
+  margin: 5px 10px 5px 0px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Chat.css.map */

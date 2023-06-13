@@ -1,0 +1,572 @@
+.form_container_area {
+  width: 73%;
+  padding: 50px 40px;
+  background-color: rgba(222, 235, 241, 0.9);
+  border-radius: 0 30px 30px 0;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area {
+    width: 100%;
+    padding: 20px;
+    border-radius: 0%;
+  }
+}
+
+.form_container_area .approver_form {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.form_container_area .approver_form .nav_container {
+  margin: 0 40px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .approver_form .nav_container {
+    margin: 0;
+  }
+}
+
+.form_container_area .approver_form .nav_container .nav_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  z-index: 99;
+  margin-bottom: 25px;
+}
+
+.form_container_area .approver_form .nav_container .nav_items .active {
+  background-color: #001426;
+  color: white;
+}
+
+.form_container_area .approver_form .nav_container .nav_items .nav_item {
+  border: 2px solid #001426;
+  padding: 5px 18px;
+  border-radius: 45px;
+  font-size: 19px;
+  font-family: "Poppins-Medium";
+  position: relative;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .approver_form .nav_container .nav_items .nav_item {
+    font-size: 12px;
+    padding: 10px 12px;
+  }
+}
+
+.form_container_area .approver_form .nav_container .nav_items .nav_item .info_red_icon {
+  position: absolute;
+  right: -25px;
+  top: -10px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .approver_form .nav_container .nav_items .nav_item .info_red_icon {
+    right: -13px;
+    top: -12px;
+  }
+}
+
+.form_container_area .approver_form .nav_container .nav_items .horizotal_row_container {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.form_container_area .approver_form .nav_container .nav_items .horizotal_row_container .active {
+  background-color: #001426 !important;
+}
+
+.form_container_area .approver_form .nav_container .nav_items .horizotal_row_container .horizontal_row {
+  background: #00000065;
+  width: 100%;
+  height: 4px;
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.form_container_area .approver_form .nav_container .horizontal_line {
+  position: absolute;
+  background-color: #001426;
+  width: 100%;
+  height: 5px;
+  top: 22px;
+  z-index: 9;
+}
+
+.form_container_area .approver_form .add_bidder_container {
+  margin: 0 40px;
+  margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .approver_form .add_bidder_container {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+}
+
+.form_container_area .approver_form .add_bidder_container .bidder {
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 10px;
+  border: 2px solid #001426;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.form_container_area .approver_form .add_bidder_container .completed {
+  background-color: transparent;
+}
+
+.form_container_area .approver_form .add_bidder_container .active {
+  background-color: #001426;
+  color: white;
+}
+
+.form_container_area .approver_form .company_id_details {
+  margin: 0 40px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .approver_form .company_id_details {
+    margin: 0;
+  }
+}
+
+.form_container_area .approver_form .company_id_details .company_id {
+  font-size: 18px;
+  color: #001426;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Poppins-Medium";
+  margin-bottom: 18px;
+}
+
+.form_container_area .approver_form form .form_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 40px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .approver_form form .form_container {
+    margin: 0;
+  }
+}
+
+.form_container_area .approver_form form .form_container .fontClassSelect {
+  font-size: 18px;
+}
+
+.form_container_area .approver_form form .form_container .form_control_area {
+  width: 47%;
+  margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .approver_form form .form_container .form_control_area {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+.form_container_area .approver_form form .form_container .form_control_area .form_label {
+  display: inline-block;
+  color: #000000;
+  font-size: 18px;
+  font-family: "Poppins-Regular";
+  margin-bottom: 5px;
+}
+
+.form_container_area .approver_form form .form_container .form_control_area .form_label .label_mandatory {
+  color: #eb4146;
+}
+
+.form_container_area .approver_form form .form_container .form_control_area .form_control {
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  line-height: 2.5;
+  font-size: 16px;
+  padding: 0 13px;
+  font-family: "Poppins-Regular";
+  color: #000000d9;
+  -webkit-box-shadow: 3px 5px 10px #00000034;
+          box-shadow: 3px 5px 10px #00000034;
+}
+
+.form_container_area .approver_form form .form_container .form_control_area select {
+  background-color: #fff;
+  background-image: url("./../../../../../assets/images/drop-icon.svg");
+  background-position: right 15px center;
+  background-repeat: no-repeat;
+  background-size: 4% 50%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.form_container_area .approver_form form .form_container .form_control_area select::-ms-expand {
+  display: none;
+}
+
+.form_container_area .approver_form form .form_container .form_control_area .input_container .select_input {
+  line-height: 2.5;
+  font-size: 16px;
+  padding: 0 13px;
+  border-radius: 6px 0px 0px 6px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  -webkit-box-shadow: 3px 5px 10px #00000034;
+          box-shadow: 3px 5px 10px #00000034;
+  border-right: 1px solid #00000014;
+  background-color: #fff;
+  background-image: url("./../../../../../assets/images/drop-icon.svg");
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+  background-size: 16% 50%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+}
+
+.form_container_area .approver_form form .form_container .form_control_area .input_container .form_control_phone {
+  display: inline-block;
+  width: 75%;
+  border-left: none;
+  border-radius: 0px 6px 6px 0px;
+  border: none;
+  outline: none;
+  line-height: 2.5;
+  font-size: 16px;
+  padding: 0 13px;
+  font-family: "Poppins-Regular";
+  color: #000000d9;
+  -webkit-box-shadow: 5px 5px 10px #00000034;
+          box-shadow: 5px 5px 10px #00000034;
+}
+
+.form_container_area .approver_form form .form_container .form_control_area .custom_bidder_dropdown {
+  position: relative;
+}
+
+.form_container_area .approver_form form .form_container .form_control_area .custom_bidder_dropdown .select_box {
+  background: white;
+  padding: 7px;
+  border-radius: 6px;
+  -webkit-box-shadow: 3px 5px 10px #00000034;
+          box-shadow: 3px 5px 10px #00000034;
+  cursor: pointer;
+  height: 41px;
+  overflow: hidden;
+  overflow-x: auto;
+  width: 100%;
+  position: relative;
+  white-space: nowrap;
+  z-index: 99;
+  margin-bottom: 25px;
+}
+
+.form_container_area .approver_form form .form_container .form_control_area .custom_bidder_dropdown .select_box::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.form_container_area .approver_form form .form_container .form_control_area .custom_bidder_dropdown .select_box::-webkit-scrollbar-track {
+  background: white;
+}
+
+.form_container_area .approver_form form .form_container .form_control_area .custom_bidder_dropdown .select_box::-webkit-scrollbar-thumb {
+  background-color: blue;
+  border-radius: 20px;
+  border: 3px solid #464545;
+}
+
+.form_container_area .approver_form form .form_container .form_control_area .custom_bidder_dropdown .select_box .selected_bidder {
+  background-color: #9e9e9e99;
+  display: inline-block;
+  padding: 2px 5px;
+  margin-right: 10px;
+  margin-bottom: 2px;
+}
+
+.form_container_area .approver_form form .form_container .form_control_area .custom_bidder_dropdown .select_box .selected_bidder .bidder_name {
+  margin-right: 5px;
+}
+
+.form_container_area .approver_form form .form_container .form_control_area .custom_bidder_dropdown .select_box .selected_bidder .bidder_cancel {
+  border-left: 1px solid black;
+  padding-left: 5px;
+}
+
+.form_container_area .approver_form form .form_container .form_control_area .custom_bidder_dropdown .options_container {
+  position: absolute;
+  top: 122%;
+  left: 0;
+  background: white;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 6px;
+}
+
+.form_container_area .approver_form form .form_container .form_control_area .custom_bidder_dropdown .options_container .option {
+  display: block;
+  background: white;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.form_container_area .approver_form form .form_container .form_control_area .custom_bidder_dropdown .options_container .option:hover {
+  background-color: #87ceeb75;
+}
+
+.form_container_area .approver_form form .form_container .form_control_spread {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .approver_form form .form_container .form_control_spread {
+    margin-bottom: 15px;
+  }
+}
+
+.form_container_area .approver_form form .form_container .form_control_spread .form_label {
+  display: inline-block;
+  color: #000000;
+  font-size: 18px;
+  font-family: "Poppins-Regular";
+  margin-bottom: 5px;
+}
+
+.form_container_area .approver_form form .form_container .form_control_spread .form_label .label_mandatory {
+  color: #eb4146;
+}
+
+.form_container_area .approver_form form .form_container .form_control_spread .form_control {
+  display: inline-block;
+  width: 47%;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  line-height: 2.5;
+  font-size: 16px;
+  padding: 0 13px;
+  font-family: "Poppins-Regular";
+  color: #000000d9;
+  -webkit-box-shadow: 3px 5px 10px #00000034;
+          box-shadow: 3px 5px 10px #00000034;
+  margin-left: 20px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .approver_form form .form_container .form_control_spread .form_control {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.form_container_area .approver_form form .form_container .form_control_spread select {
+  background-color: #fff;
+  background-image: url("./../../../../../assets/images/drop-icon.svg");
+  background-position: right 15px center;
+  background-repeat: no-repeat;
+  background-size: 4% 50%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.form_container_area .approver_form form .form_container .form_control_spread select::-ms-expand {
+  display: none;
+}
+
+.form_container_area .approver_form form .form_container .form_control_spread .a_control {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.form_container_area .approver_form form .form_container .form_control_spread .a_control input[type="radio"] {
+  display: none;
+}
+
+.form_container_area .approver_form form .form_container .form_control_spread .a_control label {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+  font-size: 16px;
+  font-family: "Poppins-Light";
+  cursor: pointer;
+}
+
+.form_container_area .approver_form form .form_container .form_control_spread .a_control label::before,
+.form_container_area .approver_form form .form_container .form_control_spread .a_control label::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.form_container_area .approver_form form .form_container .form_control_spread .a_control label::before {
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background: #f3f3f3;
+  border: 1px solid #284460;
+}
+
+.form_container_area .approver_form form .form_container .form_control_spread .a_control label:hover::before {
+  background: #fff;
+}
+
+.form_container_area .approver_form form .form_container .form_control_spread .a_control label::after {
+  opacity: 0;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background: #284460;
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+
+.form_container_area .approver_form form .form_container .form_control_spread .a_control input[type="radio"]:checked + label::before {
+  background: #fff;
+  border: 1px solid #284460;
+}
+
+.form_container_area .approver_form form .form_container .form_control_spread .a_control input[type="radio"]:checked + label::after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.form_container_area .approver_form form .form_container .form_control_spread .radio_container {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .approver_form form .form_container .form_control_spread .radio_container {
+    display: block;
+    margin-left: 0;
+  }
+}
+
+.form_container_area .approver_form form .form_container .form_control_spread .select_container .select_control {
+  display: inline-block;
+  width: 7%;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding: 13px 10px;
+  -webkit-box-shadow: 3px 5px 10px #00000034;
+          box-shadow: 3px 5px 10px #00000034;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("./../../../../../assets/images/dropdown.svg");
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: 50%;
+  background-size: 12px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .approver_form form .form_container .form_control_spread .select_container .amount_version {
+    width: 20%;
+  }
+}
+
+.form_container_area .approver_form form .form_container .form_control_spread .select_container .amount {
+  margin-left: 15px;
+  width: 25%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .approver_form form .form_container .form_control_spread .select_container .amount {
+    width: 40%;
+  }
+}
+
+.form_container_area .approver_form form .form_container .form_submit_container {
+  width: 100%;
+  text-align: right;
+  margin-top: 50px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .approver_form form .form_container .form_submit_container {
+    text-align: center;
+    margin-top: 0;
+  }
+}
+
+.form_container_area .approver_form form .form_container .form_submit_container .btn {
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: "Poppins-Medium";
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .approver_form form .form_container .form_submit_container .btn {
+    font-size: 16px;
+  }
+}
+
+.form_container_area .approver_form form .form_container .form_submit_container .btn_submit_form {
+  color: #ffffff;
+  background-color: #001426;
+  margin-left: 20px;
+  border: 2px solid #001426;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.form_container_area .approver_form form .form_container .form_submit_container .btn_submit_form:active {
+  -webkit-transform: scale(0.92);
+          transform: scale(0.92);
+}
+
+.form_container_area .approver_form form .form_container .form_submit_container .btn_add_bidder {
+  color: #001426;
+  background-color: transparent;
+  border: 2px solid #001426;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.form_container_area .approver_form form .form_container .form_submit_container .btn_add_bidder:active {
+  -webkit-transform: scale(0.92);
+          transform: scale(0.92);
+}
+/*# sourceMappingURL=Approver.css.map */

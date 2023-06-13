@@ -1,0 +1,215 @@
+.completed_jobs_container {
+  width: 81%;
+  background-color: #f8fdff;
+  padding: 20px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .completed_jobs_container {
+    width: 100%;
+    padding: 20px 20px 40px 20px;
+  }
+}
+
+.completed_jobs_container .bredcrum {
+  color: #000000b3;
+  font-size: 12px;
+  font-family: "Poppins-Regular";
+}
+
+.completed_jobs_container .bredcrum .active_page {
+  color: #002c54;
+  font-size: 12px;
+  font-family: "Poppins-Medium";
+}
+
+.completed_jobs_container .main_heading {
+  color: #001426;
+  font-size: 18px;
+  font-family: "Poppins-Medium";
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+.completed_jobs_container .mobile_responsive_view {
+  display: none;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .completed_jobs_container .mobile_responsive_view {
+    display: block;
+  }
+}
+
+.completed_jobs_container .desktop_responsive_view {
+  display: block;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .completed_jobs_container .desktop_responsive_view {
+    display: none;
+  }
+}
+
+.completed_jobs_container .mobile_responsive_view .completed_jobs,
+.completed_jobs_container .desktop_responsive_view .completed_jobs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.completed_jobs_container .mobile_responsive_view .completed_jobs .completed_job,
+.completed_jobs_container .desktop_responsive_view .completed_jobs .completed_job {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #deebf1;
+  width: 48.5%;
+  border-radius: 9px;
+  padding: 20px 25px;
+  -webkit-box-shadow: 2px 4px 8px #00000029;
+          box-shadow: 2px 4px 8px #00000029;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .completed_jobs_container .mobile_responsive_view .completed_jobs .completed_job,
+  .completed_jobs_container .desktop_responsive_view .completed_jobs .completed_job {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.completed_jobs_container .mobile_responsive_view .completed_jobs .completed_job .col .item,
+.completed_jobs_container .desktop_responsive_view .completed_jobs .completed_job .col .item {
+  margin-top: 5px;
+}
+
+.completed_jobs_container .mobile_responsive_view .completed_jobs .completed_job .col .item .heading,
+.completed_jobs_container .desktop_responsive_view .completed_jobs .completed_job .col .item .heading {
+  color: #000000d9;
+  font-size: 18px;
+  font-family: "Poppins-Medium";
+}
+
+.completed_jobs_container .mobile_responsive_view .completed_jobs .completed_job .col .item .text,
+.completed_jobs_container .desktop_responsive_view .completed_jobs .completed_job .col .item .text {
+  color: #000000d9;
+  font-size: 18px;
+  font-family: "Poppins-Regular";
+}
+
+.completed_jobs_container .mobile_responsive_view .completed_jobs .completed_job .col .job_label,
+.completed_jobs_container .desktop_responsive_view .completed_jobs .completed_job .col .job_label {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Poppins-Regular";
+  padding: 8px 14px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  border: 2px solid #001426;
+}
+
+.completed_jobs_container .mobile_responsive_view .completed_jobs .completed_job .col_1,
+.completed_jobs_container .desktop_responsive_view .completed_jobs .completed_job .col_1 {
+  width: 35%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .completed_jobs_container .mobile_responsive_view .completed_jobs .completed_job .col_1,
+  .completed_jobs_container .desktop_responsive_view .completed_jobs .completed_job .col_1 {
+    width: 70%;
+  }
+}
+
+.completed_jobs_container .mobile_responsive_view .completed_jobs .completed_job .col_2,
+.completed_jobs_container .desktop_responsive_view .completed_jobs .completed_job .col_2 {
+  width: 35%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .completed_jobs_container .mobile_responsive_view .completed_jobs .completed_job .col_2,
+  .completed_jobs_container .desktop_responsive_view .completed_jobs .completed_job .col_2 {
+    width: 70%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+
+.completed_jobs_container .mobile_responsive_view .completed_jobs .completed_job .col_3,
+.completed_jobs_container .desktop_responsive_view .completed_jobs .completed_job .col_3 {
+  width: 30%;
+}
+
+.completed_jobs_container .mobile_responsive_view .completed_jobs .awssld__content,
+.completed_jobs_container .desktop_responsive_view .completed_jobs .awssld__content {
+  background-color: #fff;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .completed_jobs_container .mobile_responsive_view .completed_jobs nav.awssld__bullets,
+  .completed_jobs_container .desktop_responsive_view .completed_jobs nav.awssld__bullets {
+    margin-bottom: -10px;
+  }
+}
+
+.completed_jobs_container .mobile_responsive_view .completed_jobs .awssld__bullets,
+.completed_jobs_container .desktop_responsive_view .completed_jobs .awssld__bullets {
+  bottom: -25px;
+}
+
+.completed_jobs_container .mobile_responsive_view .completed_jobs .awssld__bullets button,
+.completed_jobs_container .desktop_responsive_view .completed_jobs .awssld__bullets button {
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
+.completed_jobs_container .mobile_responsive_view .completed_jobs .awssld__wrapper,
+.completed_jobs_container .desktop_responsive_view .completed_jobs .awssld__wrapper {
+  border-radius: 9px;
+}
+
+.completed_jobs_container .mobile_responsive_view .completed_jobs .awssld__container,
+.completed_jobs_container .desktop_responsive_view .completed_jobs .awssld__container {
+  height: 470px;
+}
+
+.completed_jobs_container .mobile_responsive_view .completed_jobs .aws-btn,
+.completed_jobs_container .desktop_responsive_view .completed_jobs .aws-btn {
+  --slider-height-percentage: 100%;
+  --slider-transition-duration: 700ms;
+  --organic-arrow-thickness: 4px;
+  --organic-arrow-border-radius: 0px;
+  --organic-arrow-height: 17px;
+  --organic-arrow-color: #1a1b1b;
+  --control-button-width: 10%;
+  --control-button-height: 43%;
+  --control-button-background: transparent;
+  --control-bullet-color: #6b6b6e;
+  --control-bullet-active-color: #111111;
+  --loader-bar-color: #851515;
+  --loader-bar-height: 5px;
+}
+/*# sourceMappingURL=CompletedJobs.css.map */

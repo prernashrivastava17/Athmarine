@@ -1,0 +1,447 @@
+.bid_container {
+  width: 81%;
+}
+
+.bid_container .container {
+  width: 100%;
+  background-color: #f8fdff;
+  padding: 20px 30px;
+}
+
+.bid_container .container h2 {
+  font-family: "Poppins-Medium";
+  font-size: 12px;
+  line-height: 28px;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.bid_container .container h2 .editprofile {
+  color: #002c54;
+  opacity: 1;
+}
+
+.bid_container .container h1 {
+  font-family: "Poppins-Medium";
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0px;
+  color: #001426;
+  opacity: 1;
+}
+
+.bid_container .container .bid_card_container {
+  padding-top: 10px;
+}
+
+.bid_container .container .bid_card_container .requestor_box_container {
+  background-color: #deebf1;
+  -webkit-box-shadow: 2px 4px 8px #00000029;
+          box-shadow: 2px 4px 8px #00000029;
+  border-radius: 9px;
+  opacity: 1;
+  padding: 10px 0px;
+  width: 100%;
+}
+
+.bid_container .container .bid_card_container .requestor_box_container .box_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 10px;
+}
+
+.bid_container .container .bid_card_container .requestor_box_container .box_container .block_container {
+  position: relative;
+  width: 41%;
+}
+
+.bid_container .container .bid_card_container .requestor_box_container .box_container .block_container .card_heading {
+  display: inline-block;
+  font-family: "Poppins-Medium";
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0px;
+  color: #000000d9;
+}
+
+.bid_container .container .bid_card_container .requestor_box_container .box_container .block_container .cardSubHeading {
+  font-family: "Poppins-Medium";
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0px;
+  color: #000000d9;
+}
+
+.bid_container .container .bid_card_container .requestor_box_container .box_container .block_container .pencilWraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bid_container .container .bid_card_container .requestor_box_container .box_container .bids_button_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+}
+
+.bid_container .container .bid_card_container .requestor_box_container .box_container .bids_button_container .bid_accepted_btn_container .btn {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Poppins-Medium";
+  background-color: #001426;
+  padding: 8px 20px;
+  display: inline-block;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border: 2px solid #001426;
+}
+
+.bid_container .container .bid_card_container .requestor_box_container .box_container .bids_button_container .bid_accepted_btn_container .btn_cancel_btn {
+  background-color: transparent;
+  color: #001426;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.bid_container .container .bid_card_container .requestor_box_container .box_container .bids_button_container .bid_accepted_btn_container .btn_cancel_btn:active {
+  -webkit-transform: scale(0.92);
+          transform: scale(0.92);
+}
+
+.bid_container .container .bid_card_container .requestor_box_container .box_container .bids_button_container .bid_accepted_btn_container .update_btn {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.bid_container .container .bid_card_container .requestor_box_container .box_container .bids_button_container .bid_accepted_btn_container .update_btn:active {
+  -webkit-transform: scale(0.92);
+          transform: scale(0.92);
+}
+
+.bid_container .container .bid_card_container .requestor_box_container .box_container .raise_PO_container {
+  position: absolute;
+  bottom: 0;
+}
+
+.bid_container .container .bid_card_container .requestor_box_container .box_container .raise_PO_container .btn {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Poppins-Medium";
+  background-color: #001426;
+  padding: 8px 20px;
+  display: inline-block;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border: 2px solid #001426;
+}
+
+.bid_container .container .bid_card_container .requestor_box_container .box_container .raise_PO_container .btn_cancel_btn {
+  background-color: transparent;
+  color: #001426;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.bid_container .container .bid_card_container .requestor_box_container .box_container .raise_PO_container .btn_cancel_btn:active {
+  -webkit-transform: scale(0.92);
+          transform: scale(0.92);
+}
+
+.bid_container .container .bid_card_container .requestor_box_container .box_container .raise_PO_container .update_btn {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.bid_container .container .bid_card_container .requestor_box_container .box_container .raise_PO_container .update_btn:active {
+  -webkit-transform: scale(0.92);
+          transform: scale(0.92);
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper {
+  margin-top: 3%;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container {
+  background-color: #deebf1;
+  -webkit-box-shadow: 2px 4px 8px #00000029;
+          box-shadow: 2px 4px 8px #00000029;
+  border-radius: 9px;
+  opacity: 1;
+  padding: 20px 30px;
+  margin-bottom: 2%;
+  width: 100%;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .line_item_header_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .line_item_header_container .image_name_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .line_item_header_container .image_name_container .image_vendor_name {
+  padding-right: 10px;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .line_item_header_container .image_name_container .vendor_name {
+  font-family: "Poppins-Medium";
+  font-size: 18px;
+  line-height: 27px;
+  color: #001426;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .btn {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Poppins-normal";
+  background-color: #001426;
+  background: #001426 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 3px 5px 10px #00000062;
+          box-shadow: 3px 5px 10px #00000062;
+  border-radius: 6px;
+  opacity: 1;
+  padding: 10px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .btn .chat_icon {
+  padding: 0px 5px;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .update_btn {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .update_btn:active {
+  -webkit-transform: scale(0.92);
+          transform: scale(0.92);
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .para_container {
+  padding: 10px 0px;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .para_container .para {
+  font-family: "Poppins-Regular";
+  font-size: 16px;
+  line-height: 25px;
+  color: #000000d9;
+  text-align: left;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .engineers_container .engineers {
+  font-family: "Poppins-Medium";
+  font-size: 18px;
+  line-height: 27px;
+  color: #001426;
+  margin-right: 4%;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .engineers_container .btn {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Poppins-Medium";
+  background-color: #001426;
+  padding: 8px 20px;
+  display: inline-block;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border: 2px solid #001426;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin: 2px 10px;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .engineers_container .btn_engineers {
+  background-color: transparent;
+  color: #001426;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .engineers_container .btn_engineers .btn_label {
+  padding: 2px 10px;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .engineers_container .btn_engineers:active {
+  -webkit-transform: scale(0.92);
+          transform: scale(0.92);
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .horizontal_line {
+  margin: 10px 0px;
+  border-top: 1px solid #70707033;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .quotation_container_wraper {
+  margin-top: 2%;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .quotation_container_wraper .quotation {
+  font-family: "Poppins-Medium";
+  font-size: 18px;
+  line-height: 27px;
+  color: #001426;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .quotation_container_items {
+  background-color: #ffffff;
+  border-radius: 9px;
+  padding: 0px 10px;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .quotation_container_items .quotation_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 1px solid #70707033;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .quotation_container_items .quotation_container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .quotation_container_items .quotation_container .quotation_name_container {
+  width: 20%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .quotation_container_items .quotation_container .quotation_name_container {
+    width: 50%;
+    -webkit-box-ordinal-group: -1;
+        -ms-flex-order: -2;
+            order: -2;
+  }
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .quotation_container_items .quotation_container .quotation_name_container .quotation_name {
+  font-size: 17px;
+  line-height: 27px;
+  font-family: "Poppins-Medium";
+  color: #001426;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .quotation_container_items .quotation_container .quotation_description_container {
+  width: 60%;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .quotation_container_items .quotation_container .quotation_description_container .quotation_description_container_box {
+  margin: 2% 0%;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .quotation_container_items .quotation_container .quotation_description_container .quotation_description_container_box .quotation_description {
+  font-size: 14px;
+  line-height: 25px;
+  font-family: "Poppins-Regular";
+  color: #000000d9;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .quotation_container_items .quotation_container .quotation_description_container .quotation_description_container_box .quotation_description_Heading {
+  font-size: 14px;
+  line-height: 25px;
+  font-family: "Poppins-Medium";
+  color: #001426;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .quotation_container_items .quotation_container .quotation_description_container .quotation_description {
+  font-size: 14px;
+  line-height: 25px;
+  font-family: "Poppins-Regular";
+  color: #000000d9;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .quotation_container_items .quotation_container .quotation_description_container .quotation_description_Heading {
+  font-size: 14px;
+  line-height: 25px;
+  font-family: "Poppins-Medium";
+  color: #001426;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .quotation_container_items .quotation_container .quotation_price_details_container {
+  width: 10%;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .quotation_container_items .quotation_container .quotation_price_details_container .quotation_price_details_container_box .quotation_price {
+  font-size: 14px;
+  line-height: 25px;
+  font-family: "Poppins-Regular";
+  color: #000000d9;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .quotation_container_items .quotation_container .quotation_price_details_container .quotation_price {
+  font-size: 14px;
+  line-height: 25px;
+  font-family: "Poppins-Regular";
+  color: #000000d9;
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .quotation_container_items .quotation_container .quotation_price_total_container {
+  width: 10%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .quotation_container_items .quotation_container .quotation_price_total_container {
+    width: 50%;
+    -webkit-box-ordinal-group: -1;
+        -ms-flex-order: -2;
+            order: -2;
+  }
+}
+
+.bid_container .container .bid_card_container .line_item_container_wraper .line_item_container .quotation_container_items .quotation_container .quotation_price_total_container .quotation_price_total {
+  font-size: 17px;
+  line-height: 27px;
+  font-family: "Poppins-Medium";
+  color: #001426;
+}
+/*# sourceMappingURL=BidsAccepted.css.map */

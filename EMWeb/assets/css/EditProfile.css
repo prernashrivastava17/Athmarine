@@ -1,0 +1,254 @@
+.editProfile_main_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.editProfile_main_container .editProfile_container {
+  width: 81%;
+  background-color: #f8fdff;
+  padding: 20px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .editProfile_main_container .editProfile_container {
+    width: 100%;
+    position: relative;
+  }
+}
+
+.editProfile_main_container .editProfile_container h2 {
+  font-family: "Poppins-Medium";
+  font-size: 12px;
+  line-height: 28px;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.editProfile_main_container .editProfile_container h2 .editprofile {
+  color: #002c54;
+  opacity: 1;
+}
+
+.editProfile_main_container .editProfile_container h1 {
+  font-family: "Poppins-Medium";
+  font-size: 18px;
+  line-height: 27px;
+  padding-top: 10px;
+  letter-spacing: 0px;
+  color: #001426;
+  opacity: 1;
+}
+
+.editProfile_main_container .editProfile_container .form_submit_container {
+  width: 100%;
+  text-align: right;
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .editProfile_main_container .editProfile_container .form_submit_container {
+    text-align: center;
+  }
+}
+
+.editProfile_main_container .editProfile_container .form_submit_container .btn {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Poppins-Medium";
+  background-color: #001426;
+  padding: 8px 20px;
+  display: inline-block;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border: 2px solid #001426;
+}
+
+.editProfile_main_container .editProfile_container .form_submit_container .btn_cancel_btn {
+  background-color: transparent;
+  color: #001426;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.editProfile_main_container .editProfile_container .form_submit_container .btn_cancel_btn:active {
+  -webkit-transform: scale(0.92);
+          transform: scale(0.92);
+}
+
+.editProfile_main_container .editProfile_container .form_submit_container .update_btn {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+.editProfile_main_container .editProfile_container .form_submit_container .update_btn:active {
+  -webkit-transform: scale(0.92);
+          transform: scale(0.92);
+}
+
+.editProfile_main_container .card_container {
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffff;
+  -webkit-box-shadow: 2px 4px 8px #00000029;
+          box-shadow: 2px 4px 8px #00000029;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.editProfile_main_container .card_container .inputBox_container {
+  position: relative;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .editProfile_main_container .card_container .inputBox_container {
+    position: inherit;
+    margin-top: 55%;
+  }
+}
+
+.editProfile_main_container .card_container .form_label {
+  font-family: "Poppins-Regular";
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  opacity: 1;
+  display: inline-block;
+  color: #001426;
+  width: 30%;
+  margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .editProfile_main_container .card_container .form_label {
+    width: 100%;
+  }
+}
+
+.editProfile_main_container .card_container .input_container {
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .editProfile_main_container .card_container .input_container {
+    width: 100%;
+  }
+}
+
+.editProfile_main_container .card_container .form_control_input {
+  width: 70%;
+  border: none;
+  display: inline-block;
+  border-radius: 6px;
+  padding: 8px 5px;
+  font-size: 16px;
+  margin-left: 0;
+  line-height: 24px;
+  font-family: "Poppins-Regular";
+  line-height: unset;
+  background-color: #e1ecf2;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .editProfile_main_container .card_container .form_control_input {
+    width: 100%;
+  }
+}
+
+.editProfile_main_container .card_container .show_password_container {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  width: 35px;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #e1ecf2;
+}
+
+.editProfile_main_container .card_container .show_password_container img {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .editProfile_main_container .card_container .show_password_container {
+    top: 32px;
+  }
+}
+
+.editProfile_main_container .card_container .horizontal_line {
+  margin-bottom: 10px;
+  border-top: 1px solid #deebf1;
+}
+
+.editProfile_main_container .card_container .change_profile_container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .editProfile_main_container .card_container .change_profile_container {
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    text-align: center;
+  }
+}
+
+.editProfile_main_container .card_container .change_profile_container .img_container {
+  position: relative;
+}
+
+.editProfile_main_container .card_container .change_profile_container .img_container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.editProfile_main_container .card_container .change_profile_container .img_container .edit_profile_option .edit_icon {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 0px;
+  right: -13px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .editProfile_main_container .card_container .change_profile_container .img_container .edit_profile_option .edit_icon {
+    right: 31%;
+  }
+}
+
+.editProfile_main_container .card_container .change_profile_container .profile_heading {
+  font-family: "Poppins-Regular";
+  font-size: 15px;
+  margin-top: 5px;
+  color: #001426;
+}
+/*# sourceMappingURL=EditProfile.css.map */

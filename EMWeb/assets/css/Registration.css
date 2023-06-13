@@ -1,0 +1,33 @@
+.main_container {
+  position: relative;
+  background-image: url("./../../assets/images/login-main-banner.png");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .main_container {
+    background-position: top;
+    background-size: 100% 67%;
+  }
+}
+
+.main_container .main_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 60px 0;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .main_container .main_wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=Registration.css.map */

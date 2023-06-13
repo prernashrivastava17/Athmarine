@@ -1,0 +1,644 @@
+.form_container_area {
+  width: 73%;
+  padding: 50px 40px;
+  background-color: rgba(222, 235, 241, 0.9);
+  border-radius: 0 30px 30px 0;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area {
+    width: 100%;
+    padding: 20px;
+    border-radius: 0%;
+  }
+}
+
+.form_container_area .finance_form {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.form_container_area .finance_form .company_id_details {
+  margin: 0 40px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .finance_form .company_id_details {
+    margin: 0;
+  }
+}
+
+.form_container_area .finance_form .company_id_details .company_id {
+  font-size: 18px;
+  color: #001426;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Poppins-Medium";
+  margin-bottom: 18px;
+}
+
+.form_container_area .finance_form .form_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 40px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .finance_form .form_container {
+    margin: 0;
+  }
+}
+
+.form_container_area .finance_form .form_container .horizontal_line {
+  background: #00000038;
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin-bottom: 15px;
+}
+
+.form_container_area .finance_form .form_container .add_bidder_container {
+  margin: 0;
+}
+
+.form_container_area .finance_form .form_container .add_bidder_container .bidder {
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 10px;
+  border: 2px solid #001426;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.form_container_area .finance_form .form_container .add_bidder_container .completed {
+  background-color: transparent;
+}
+
+.form_container_area .finance_form .form_container .add_bidder_container .active {
+  background-color: #001426;
+  color: white;
+}
+
+.form_container_area .finance_form .form_container .form_control_area {
+  width: 45%;
+  margin-bottom: 30px;
+}
+
+.form_container_area .finance_form .form_container .form_control_area .select_input {
+  line-height: 2.5;
+  font-size: 16px;
+  padding: 0 13px;
+  border-radius: 6px 0px 0px 6px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  -webkit-box-shadow: 3px 5px 10px #00000034;
+          box-shadow: 3px 5px 10px #00000034;
+  border-right: 1px solid #00000014;
+  background-color: #fff;
+  background-image: url("./../../../../../assets/images/drop-icon.svg");
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+  background-size: 16% 50%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+}
+
+.form_container_area .finance_form .form_container .form_control_area .form_control_phone {
+  display: inline-block;
+  width: 75%;
+  border-left: none;
+  border-radius: 0px 6px 6px 0px;
+  border: none;
+  outline: none;
+  line-height: 2.5;
+  font-size: 16px;
+  padding: 0 13px;
+  font-family: "Poppins-Regular";
+  color: #000000d9;
+  -webkit-box-shadow: 5px 5px 10px #00000034;
+          box-shadow: 5px 5px 10px #00000034;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .finance_form .form_container .form_control_area {
+    width: 100%;
+  }
+}
+
+.form_container_area .finance_form .form_container .form_control_area .form_label {
+  display: inline-block;
+  color: #000000;
+  font-size: 16px;
+  font-family: "Poppins-Regular";
+}
+
+.form_container_area .finance_form .form_container .form_control_area .form_label .label_mandatory {
+  color: #eb4146;
+}
+
+.form_container_area .finance_form .form_container .form_control_area .form_control {
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  line-height: 2.5;
+  font-size: 16px;
+  padding: 0 13px;
+  font-family: "Poppins-Regular";
+  color: #000000d9;
+  -webkit-box-shadow: 3px 5px 10px #00000034;
+          box-shadow: 3px 5px 10px #00000034;
+}
+
+.form_container_area .finance_form .form_container .form_control_area select {
+  background-color: #fff;
+  background-image: url("./../../../../../assets/images/drop-icon.svg");
+  background-position: right 15px center;
+  background-repeat: no-repeat;
+  background-size: 4% 50%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.form_container_area .finance_form .form_container .form_control_area select::-ms-expand {
+  display: none;
+}
+
+.form_container_area .finance_form .form_container .section_heading {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.form_container_area .finance_form .form_container .section_heading h3 {
+  font-size: 21px;
+  color: rgba(0, 0, 0, 0.85);
+  font-family: "Poppins-Medium";
+}
+
+.form_container_area .finance_form .form_container .form_control_spread {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .form_label {
+  display: inline-block;
+  color: #000000;
+  font-size: 18px;
+  font-family: "Poppins-Regular";
+  margin-bottom: 5px;
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .form_label .label_mandatory {
+  color: #eb4146;
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .form_control {
+  display: inline-block;
+  width: 47%;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  line-height: 2.5;
+  font-size: 16px;
+  padding: 0 13px;
+  font-family: "Poppins-Regular";
+  color: #000000d9;
+  -webkit-box-shadow: 3px 5px 10px #00000034;
+          box-shadow: 3px 5px 10px #00000034;
+  margin-left: 20px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .finance_form .form_container .form_control_spread .form_control {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.form_container_area .finance_form .form_container .form_control_spread select {
+  background-color: #fff;
+  background-image: url("./../../../../../assets/images/drop-icon.svg");
+  background-position: right 15px center;
+  background-repeat: no-repeat;
+  background-size: 4% 50%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.form_container_area .finance_form .form_container .form_control_spread select::-ms-expand {
+  display: none;
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .a_control {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .a_control input[type="radio"] {
+  display: none;
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .a_control label {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+  font-size: 16px;
+  font-family: "Poppins-Light";
+  cursor: pointer;
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .a_control label::before,
+.form_container_area .finance_form .form_container .form_control_spread .a_control label::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .a_control label::before {
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background: #f3f3f3;
+  border: 1px solid #284460;
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .a_control label:hover::before {
+  background: #fff;
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .a_control label::after {
+  opacity: 0;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background: #284460;
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .a_control input[type="radio"]:checked + label::before {
+  background: #fff;
+  border: 1px solid #284460;
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .a_control input[type="radio"]:checked + label::after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .radio_container {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .finance_form .form_container .form_control_spread .radio_container {
+    display: block;
+    margin-left: 0;
+  }
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .equipment_container {
+  background: white;
+  border-radius: 9px;
+  -webkit-box-shadow: 3px 5px 10px #00000034;
+          box-shadow: 3px 5px 10px #00000034;
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .equipment_container .display_carousel {
+  display: none;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .finance_form .form_container .form_control_spread .equipment_container .display_carousel {
+    display: block !important;
+  }
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .equipment_container .no_carousel {
+  display: block;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .finance_form .form_container .form_control_spread .equipment_container .no_carousel {
+    display: none !important;
+  }
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .equipment_container .awssld__content {
+  background-color: #fff;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .finance_form .form_container .form_control_spread .equipment_container nav.awssld__bullets {
+    margin-bottom: -10px;
+  }
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .equipment_container .awssld__bullets button {
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .equipment_container .aws-btn {
+  --slider-height-percentage: 100%;
+  --slider-transition-duration: 700ms;
+  --organic-arrow-thickness: 4px;
+  --organic-arrow-border-radius: 0px;
+  --organic-arrow-height: 17px;
+  --organic-arrow-color: #1a1b1b;
+  --control-button-width: 10%;
+  --control-button-height: 43%;
+  --control-button-background: transparent;
+  --control-bullet-color: #6b6b6e;
+  --control-bullet-active-color: #111111;
+  --loader-bar-color: #851515;
+  --loader-bar-height: 5px;
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .equipment_container .equipment_container_heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #0000001c;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .finance_form .form_container .form_control_spread .equipment_container .equipment_container_heading {
+    display: none;
+  }
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .equipment_container .equipment_container_heading .heading {
+  color: #000000;
+  font-size: 16px;
+  font-family: "Poppins-Medium";
+  width: 25%;
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .equipment_container .equipment_container_heading .heading .lbl_mandatory {
+  color: #eb4146;
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .equipment_container .equipment_container_body_row {
+  padding: 10px;
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col {
+  width: 25%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .finance_form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col {
+    width: 100%;
+  }
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col .mobile_label {
+  color: #000000cc;
+  font-size: 15px;
+  font-family: "Poppins-Medium";
+  display: none;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .finance_form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col .mobile_label {
+    display: inline-block;
+  }
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col .form_control {
+  width: 90%;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 10px;
+  margin-left: 0;
+  line-height: unset;
+  background-color: #e1ecf2;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .finance_form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col .form_control {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col select {
+  background-color: #e1ecf2;
+  background-image: url("./../../../../../assets/images/drop-icon.svg");
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+  background-size: 7% 50%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col select::-ms-expand {
+  display: none;
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col .input_container .select_input {
+  line-height: 2.5;
+  font-size: 16px;
+  padding: 0 10px;
+  border-radius: 6px 0px 0px 6px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  background-color: #e1ecf2;
+  background-image: url("./../../../../../assets/images/drop-icon.svg");
+  background-position: right 5px center;
+  background-repeat: no-repeat;
+  background-size: 20% 50%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col .input_container .form_control_phone {
+  width: 65%;
+  border: none;
+  display: inline-block;
+  border-radius: 0px 6px 6px 0px;
+  padding: 8px 0px;
+  font-size: 16px;
+  margin-left: 0;
+  line-height: 24px;
+  font-family: "Poppins-Regular";
+  line-height: unset;
+  background-color: #e1ecf2;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .finance_form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col .input_container .form_control_phone {
+    width: 75%;
+    margin-bottom: 15px;
+  }
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col .a_upload {
+  background-color: #fff;
+  display: block;
+  padding: 3px;
+  border-radius: 6px;
+  border: 2px solid #001426;
+  font-size: 15px;
+  text-align: center;
+  width: 90%;
+  cursor: pointer;
+  font-family: "Poppins-Medium";
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .finance_form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col .a_upload {
+    width: 100%;
+  }
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col input[type="file"] {
+  display: none;
+}
+
+.form_container_area .finance_form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col .uploadFileName {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .finance_form .form_container .form_control_spread .equipment_container .equipment_container_body_row .equipment_container_body .equipment_col .uploadFileName {
+    position: absolute;
+  }
+}
+
+.form_container_area .finance_form .form_container .terms_and_condition_container {
+  display: block;
+  width: 100%;
+}
+
+.form_container_area .finance_form .form_container .terms_and_condition_container .label_term {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.85);
+  font-family: "Poppins-Regular";
+  margin-left: 10px;
+}
+
+.form_container_area .finance_form .form_container .form_submit_container {
+  width: 100%;
+  text-align: right;
+  margin-top: 0px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .finance_form .form_container .form_submit_container {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+.form_container_area .finance_form .form_container .form_submit_container .btn {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Poppins-Medium";
+  background-color: #001426;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border: 2px solid #001426;
+}
+
+.form_container_area .finance_form .form_container .form_submit_container .btn_submit_form {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.form_container_area .finance_form .form_container .form_submit_container .btn_submit_form:active {
+  -webkit-transform: scale(0.92);
+          transform: scale(0.92);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .finance_form .form_container .form_submit_container .btn_submit_form {
+    margin-top: 5px;
+  }
+}
+
+.form_container_area .finance_form .form_container .form_submit_container .btn_add_bidder {
+  background-color: transparent;
+  color: #001426;
+  margin-right: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.form_container_area .finance_form .form_container .form_submit_container .btn_add_bidder:active {
+  -webkit-transform: scale(0.92);
+          transform: scale(0.92);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .form_container_area .finance_form .form_container .form_submit_container .btn_add_bidder {
+    margin-right: 5px;
+  }
+}
+/*# sourceMappingURL=Finance.css.map */

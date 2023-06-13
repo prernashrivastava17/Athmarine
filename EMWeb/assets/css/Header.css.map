@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAC;EACnB,OAAO,EAAE,OAAO;EAChB,gBAAgB,EAAE,OAAO;CAK1B",
+    "sources": [
+        "../../src/pages/VerifyWebEmailOTP/components/Header/Header.scss"
+    ],
+    "names": [],
+    "file": "Header.css"
+}

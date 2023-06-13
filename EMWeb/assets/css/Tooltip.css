@@ -1,0 +1,46 @@
+.info_icon {
+  display: inline-block;
+  margin-left: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.info_icon .tooltiptext {
+  position: absolute;
+  left: 50%;
+  width: 200px;
+  font-size: 13px;
+  bottom: 18px;
+  transform: translate(-50%, -18px);
+  background: #001426;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 10px;
+  max-width: 50vw;
+  z-index: 99;
+  text-align: center;
+  display: none;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .info_icon .tooltiptext {
+    left: -300%;
+    min-width: 75vw;
+  }
+}
+
+.info_icon .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -7px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: #001426 transparent transparent transparent;
+}
+
+.info_icon .tooltip:hover ~ .tooltiptext {
+  display: inline-block;
+}
+/*# sourceMappingURL=Tooltip.css.map */

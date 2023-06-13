@@ -1,0 +1,175 @@
+.login_container {
+  position: relative;
+  background-image: url("./../../assets/images/login-main-banner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .login_container {
+    background-size: 175% 130%;
+  }
+}
+
+.login_container .a_opt_container {
+  display: inline-block;
+  margin: 7% 0;
+  border-radius: 30px;
+  padding: 50px;
+  background-color: rgba(222, 235, 241, 0.9);
+  -webkit-box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.9);
+          box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.9);
+  width: 36%;
+  position: relative;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .login_container .a_opt_container {
+    width: 85%;
+    padding: 30px;
+  }
+}
+
+.login_container .a_opt_container .lock_container {
+  text-align: center;
+}
+
+.login_container .a_opt_container .lock_container .lock_icon {
+  width: 8%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .login_container .a_opt_container .lock_container .lock_icon {
+    width: 11%;
+  }
+}
+
+.login_container .a_opt_container .lock_container .modal_heading {
+  color: black;
+  font-size: 26px;
+  font-family: "Poppins-Medium";
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .login_container .a_opt_container .lock_container .modal_heading {
+    font-size: 18px;
+  }
+}
+
+.login_container .a_opt_container .text_info {
+  text-align: center;
+  padding: 30px 0 15px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .login_container .a_opt_container .text_info {
+    padding: 15% 0 5px;
+  }
+}
+
+.login_container .a_opt_container .text_info .text {
+  color: #000000d9;
+  font-size: 21px;
+  font-family: "Poppins-Regular";
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .login_container .a_opt_container .text_info .text {
+    font-size: 14px;
+  }
+}
+
+.login_container .a_opt_container .otp_container .otp_main_container {
+  margin-bottom: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.login_container .a_opt_container .otp_container .otp_main_container .text {
+  color: #000000d9;
+  font-size: 21px;
+  font-family: "Poppins-Regular";
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .login_container .a_opt_container .otp_container .otp_main_container .text {
+    font-size: 12px;
+  }
+}
+
+.login_container .a_opt_container .otp_container .enter_otp_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.login_container .a_opt_container .otp_container .enter_otp_container input {
+  text-align: center;
+  display: inline-block;
+  width: 14%;
+  height: 55px;
+  font-size: 30px;
+  line-height: 55px;
+  border: none;
+  border-radius: 6px;
+  padding: 20px 10px;
+  -webkit-box-shadow: 3px 5px 10px #00000034;
+          box-shadow: 3px 5px 10px #00000034;
+  background-color: #fff;
+  outline: none;
+}
+
+.login_container .a_opt_container .otp_container .did_not_receive_otp_container {
+  margin-top: 14px;
+  text-align: right;
+}
+
+.login_container .a_opt_container .otp_container .did_not_receive_otp_container .resend_btn {
+  color: #2a4362;
+  font-size: 21px;
+  font-family: "Poppins-Medium";
+  display: inline-block;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .login_container .a_opt_container .otp_container .did_not_receive_otp_container .resend_btn .resend_icon {
+    width: 10px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  .login_container .a_opt_container .otp_container .did_not_receive_otp_container .resend_btn {
+    font-size: 12px;
+  }
+}
+
+.login_container .a_opt_container .submit_container {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.login_container .a_opt_container .submit_container button {
+  border: none;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000000;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 10px 35px;
+  display: inline-block;
+  font-family: "Poppins-Regular";
+  -webkit-box-shadow: 3px 5px 10px #00000062;
+          box-shadow: 3px 5px 10px #00000062;
+  cursor: pointer;
+}
+/*# sourceMappingURL=EnterOTP.css.map */
